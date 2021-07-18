@@ -25,4 +25,5 @@ body
     left: 25px;
     outline: none;
     z-index: 2;
+    opacity: 0;
 }

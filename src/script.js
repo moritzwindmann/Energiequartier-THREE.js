@@ -17,64 +17,25 @@ const cubeTextureLoader = new THREE.CubeTextureLoader()
  * Textures
  */
 
- const textureLoader = new THREE.TextureLoader()
+const textureLoader = new THREE.TextureLoader()
 
- const doorColorTexture = textureLoader.load('/textures/door/color.jpg')
- const doorAlphaTexture = textureLoader.load('/textures/door/alpha.jpg')
- const doorAmbientOcclusionTexture = textureLoader.load('/textures/door/ambientOcclusion.jpg')
- const doorHeightTexture = textureLoader.load('/textures/door/height.jpg')
- const doorNormalTexture = textureLoader.load('/textures/door/normal.jpg')
- const doorMetalnessTexture = textureLoader.load('/textures/door/metalness.jpg')
- const doorRoughnessTexture = textureLoader.load('/textures/door/roughness.jpg')
- 
- const bricksColorTexture = textureLoader.load('/textures/bricks/color.jpg')
- const bricksAmbientOcclusionTexture = textureLoader.load('/textures/bricks/ambientOcclusion.jpg')
- const bricksNormalTexture = textureLoader.load('/textures/bricks/normal.jpg')
- const bricksRoughnessTexture = textureLoader.load('/textures/bricks/roughness.jpg')
+const bricksColorTexture = textureLoader.load('/textures/bricks/color.jpg')
+const bricksAmbientOcclusionTexture = textureLoader.load('/textures/bricks/ambientOcclusion.jpg')
+const bricksNormalTexture = textureLoader.load('/textures/bricks/normal.jpg')
+const bricksRoughnessTexture = textureLoader.load('/textures/bricks/roughness.jpg')
 
- 
 const matcapTexture = textureLoader.load('/textures/matcaps/597C3F_254319_6C9668_7C9B53-256px.png')
-// const roofTexture = textureLoader.load('/textures/matcaps/942967_D292B5_C76E9E_551A4C-256px.png')
-const roofTexture = textureLoader.load('/textures/matcaps/C33829_48171A_752523_942923-256px.png') // Rot
-// const roofTexture = textureLoader.load('/textures/matcaps/B3AA93_F4EFD7_E1DDC2_DCD3BB-256px.png') 
-const wallTexture = textureLoader.load('/textures/matcaps/B3AA93_F4EFD7_E1DDC2_DCD3BB-256px.png') 
 const gardientTexture = textureLoader.load('/textures/gradients/5.jpg')
-const treeTexture = textureLoader.load('/textures/matcaps/597C3F_254319_6C9668_7C9B53-256px.png')
 
-// roofTexture.minFilter = THREE.NearestFilter
-// // roofTexture.magFilter = THREE.NearestFilter
-// roofTexture.generateMipmaps = false
+const roofTexture = textureLoader.load('/textures/matcaps/B3AA93_F4EFD7_E1DDC2_DCD3BB-256px.png') 
+const wallTexture = textureLoader.load('/textures/matcaps/B5BBB5_3B4026_6E745D_5C6147-256px.png') 
+const treeTexture = textureLoader.load('/textures/matcaps/37C337_279F27_186018_248824-256px.png')
+const waterTexture = textureLoader.load('/textures/matcaps/597C3F_254319_6C9668_7C9B53-256px.png')
 
-gardientTexture.minFilter = THREE.NearestFilter
-gardientTexture.magFilter = THREE.NearestFilter
-gardientTexture.generateMipmaps = false
+roofTexture.minFilter = THREE.NearestFilter
+roofTexture.magFilter = THREE.NearestFilter
+roofTexture.generateMipmaps = false
  
- bricksColorTexture.encoding =  THREE.sRGBEncoding;
- bricksColorTexture.flipY = false;
-
- bricksColorTexture.wrapS = THREE.RepeatWrapping
- bricksColorTexture.wrapT = THREE.RepeatWrapping
-
- const grassColorTexture = textureLoader.load('/textures/grass/color.jpg')
- const grassAmbientOcclusionTexture = textureLoader.load('/textures/grass/ambientOcclusion.jpg')
- const grassNormalTexture = textureLoader.load('/textures/grass/normal.jpg')
- const grassRoughnessTexture = textureLoader.load('/textures/grass/roughness.jpg')
- 
- grassColorTexture.repeat.set(8, 8)
- grassAmbientOcclusionTexture.repeat.set(8, 8)
- grassNormalTexture.repeat.set(8, 8)
- grassRoughnessTexture.repeat.set(8, 8)
-
- grassColorTexture.wrapS = THREE.RepeatWrapping
- grassAmbientOcclusionTexture.wrapS = THREE.RepeatWrapping
- grassNormalTexture.wrapS = THREE.RepeatWrapping
- grassRoughnessTexture.wrapS = THREE.RepeatWrapping
- 
- grassColorTexture.wrapT = THREE.RepeatWrapping
- grassAmbientOcclusionTexture.wrapT = THREE.RepeatWrapping
- grassNormalTexture.wrapT = THREE.RepeatWrapping
- grassRoughnessTexture.wrapT = THREE.RepeatWrapping
-
 // Debug
 const gui = new dat.GUI()
 
@@ -114,8 +75,8 @@ window.addEventListener('resize', () =>
  * Camera
  */
 // Base camera
-const camera = new THREE.PerspectiveCamera(30, sizes.width / sizes.height, 0.1, 100)
-camera.position.set(4, 1, - 4)
+const camera = new THREE.PerspectiveCamera(60, sizes.width / sizes.height, 0.1, 100)
+camera.position.set(4, 2, - 4)
 scene.add(camera)
 
 // Controls
@@ -137,7 +98,7 @@ renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
 renderer.physicallyCorrectLights = true
 renderer.outputEncoding = THREE.sRGBEncoding
 renderer.shadowMap.enabled = true;
-renderer.setClearColor('#dec9ad')
+renderer.setClearColor('#eaeffc')
 renderer.shadowMap.type = THREE.PCFSoftShadowMap; // default THREE.PCFShadowMap
 
 
@@ -158,64 +119,66 @@ renderer.shadowMap.type = THREE.PCFSoftShadowMap; // default THREE.PCFShadowMap
  * Fog
  */
 
- const fog = new THREE.Fog('#dec9ad', 8, 15)
+ const fog = new THREE.Fog('#eaeffc', 8, 15)
  scene.fog = fog
 
 /**
  * Materials
  */
-const terrain = new THREE.MeshStandardMaterial({color: 0xdec9ad});
+
+
+ var params = {
+  wallColor: 0xffffff,
+  wallEmissive: 0x000000,
+
+  terrainColor: 0xeaeffc,
+  waterColor: 0x3384ff,
+  // terrainEmissive: 0x000000,
+  roofColor: 0xebebeb,
+  // roofEmissive: 0x000000
+};
+
+
+const terrain = new THREE.MeshStandardMaterial({});
 
 // const wall =  new THREE.MeshStandardMaterial({color: 0xdec9ad})
-// const roof =  new THREE.MeshStandardMaterial({color: 0xff0000, wireframe: true})
+const roof =  new THREE.MeshStandardMaterial({color: ( params.roofColor )})
+const water =  new THREE.MeshStandardMaterial({color: ( params.waterColor )})
 
 
 
 const wall =  new THREE.MeshMatcapMaterial({matcap: wallTexture})
-const roof =  new THREE.MeshMatcapMaterial({matcap: roofTexture})
+// const roof =  new THREE.MeshMatcapMaterial({matcap: roofTexture})
 const forest =  new THREE.MeshMatcapMaterial({matcap: treeTexture})
 
 
-var params = {
-    wallColor: 0xffffff,
-    wallEmissive: 0x000000,
-
-    terrainColor: 0xffffff,
-    terrainEmissive: 0x000000,
-
-    roofColor: 0xff0000,
-    roofEmissive: 0x000000
-};
 
 var folder = gui.addFolder( 'Materials' );
 
-folder.addColor( params, 'terrainColor' ).onChange( function() { terrain.color.set( params.terrainColor ); } );
-folder.addColor( params, 'terrainEmissive' ).onChange( function() { terrain.emissive.set( params.terrainEmissive ); } );
-folder.add(terrain, 'roughness').min(0).max(1).step(0.001).name('terrainRoughness')
-folder.add(terrain, 'metalness').min(0).max(1).step(0.001).name('terrainMetalness')
+folder.addColor( params, 'terrainColor' ).onChange( function() { 
+  terrain.color.set( params.terrainColor );
+  fog.color.set( params.terrainColor );
+  renderer.setClearColor(params.terrainColor)
+} );
+// folder.addColor( params, 'terrainEmissive' ).onChange( function() { terrain.emissive.set( params.terrainEmissive ); } );
+// folder.add(terrain, 'roughness').min(0).max(1).step(0.001).name('terrainRoughness')
+// folder.add(terrain, 'metalness').min(0).max(1).step(0.001).name('terrainMetalness')
 
-// folder.addColor( params, 'roofColor' ).onChange( function() { roof.color.set( params.roofColor ); } );
-// folder.addColor( params, 'roofEmissive' ).onChange( function() { roof.emissive.set( params.roofEmissive ); } );
-// folder.add(roof, 'roughness').min(0).max(1).step(0.001).name('roofRoughness')
-// folder.add(roof, 'metalness').min(0).max(1).step(0.001).name('roofMetalness')
-
+folder.addColor( params, 'roofColor' ).onChange( function() { roof.color.set( params.roofColor ); } );
+folder.addColor( params, 'waterColor' ).onChange( function() { water.color.set( params.waterColor ); } );
 folder.open();
 
 
 
 
-
-const testCube = new THREE.Mesh(
-    new THREE.BoxGeometry(0.5, 0.5, 0.5),
-)
-
-testCube.material = wall
-
-testCube.geometry.setAttribute('uv2', new THREE.Float32BufferAttribute(testCube.geometry.attributes.uv.array, 2))
-
-testCube.position.set(1,0,0.4)
-scene.add(testCube)
-console.log(wall.map);
+// const testCube = new THREE.Mesh(
+//     new THREE.BoxGeometry(0.5, 0.5, 0.5),
+// )
+// testCube.material = wall
+// testCube.geometry.setAttribute('uv2', new THREE.Float32BufferAttribute(testCube.geometry.attributes.uv.array, 2))
+// testCube.position.set(1,0,0.4)
+// scene.add(testCube)
+// console.log(wall.map);
 
 /**
  * Update Materials
@@ -233,7 +196,7 @@ const updateAllMaterials = () =>
             // console.log(child.material.name)
             // child.material = wallTexture
 
-            if(child.name == 'Terrain002') {
+            if(child.name == 'Terrrain') {
                 child.material = terrain;
                 child.receiveShadow = true;
             }
@@ -249,6 +212,10 @@ const updateAllMaterials = () =>
 
             if(child.material.name == 'forest') {
                 child.material = forest;
+            }
+
+            if(child.material.name == 'water') {
+                child.material = water;
             }
 
             // child.material.envMap = enviromentMap
@@ -351,8 +318,8 @@ const enviromentMap = cubeTextureLoader.load([
     '/textures/environmentMaps/1/nz.jpg'
 ])
 
-scene.background = enviromentMap
-scene.environment = enviromentMap
+// scene.background = enviromentMap
+// scene.environment = enviromentMap
 
 debugObject.envMapIntensity = 5
 gui.add(debugObject, 'envMapIntensity').min(0).max(10).step(0.001).name('envMap').onChange(updateAllMaterials)
@@ -365,20 +332,17 @@ gltfLoader.load(
     // 'models/FlightHelmet/glTF/FlightHelmet.gltf',
     // 'models/arrenberg-scene_comp.gltf', 
     // '/models/BlenderOSM/Blender-OSM_02.gltf', 
-    '/models/Arrenberg-Blender_02.gltf', 
+    '/models/Arrenberg-Blender_05.gltf', 
     (gltf) => {
         gltf.scene.scale.set(0.01,0.01,0.01)
         gltf.scene.position.set(0,0,0)
         gltf.scene.rotation.y = -1.59
-
         gltf.scene.receiveShadow = true;
         gltf.scene.castShadow = true;
-
         scene.add(gltf.scene)
-        gui.add(gltf.scene.rotation, 'y').min(- Math.PI).max(Math.PI).step(0.01).name('rotation')
-       
-        updateAllMaterials()
 
+        gui.add(gltf.scene.rotation, 'y').min(- Math.PI).max(Math.PI).step(0.01).name('rotation')
+        updateAllMaterials()
     }   
 )
 
@@ -411,7 +375,7 @@ gui.add(directionalLight.position, 'z').min(-5).max(5).step(0.001).name('lightZ'
 gui.add(directionalLight, 'castShadow').name('Shadow')
 
 const directionalLightCameraHelper = new THREE.CameraHelper(directionalLight.shadow.camera)
-scene.add(directionalLightCameraHelper)
+// scene.add(directionalLightCameraHelper)
 
 // const ambientLight = new THREE.AmbientLight( 0x404040 ); // soft white light
 // scene.add( ambientLight );
@@ -419,7 +383,7 @@ scene.add(directionalLightCameraHelper)
 
 const ambientLight = new THREE.DirectionalLight('#ffffff', 3)
 ambientLight.position.set(-2, 5, 1)
-ambientLight.intensity = 1.605
+ambientLight.intensity = 1.2
 // ambientLight.castShadow = true; // default false
 scene.add(ambientLight)
 
