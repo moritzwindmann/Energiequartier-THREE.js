@@ -1,0 +1,1977 @@
+[Log] Group (bundle.e031f03719959a22229a.js, line 119585)
+
+animations: [] (0)
+
+castShadow: true
+
+children: Array (66)
+0 Mesh {id: 19, uuid: "E46C2FF2-613F-467D-8CB8-B6E72B9FA13B", name: "Terrrain", type: "Mesh", parent: Group, …}
+1 Group {id: 22, uuid: "660E23FD-7978-40AB-BD5A-6D14F1602A0C", name: "36", type: "Group", parent: Group, …}
+2 Group {id: 25, uuid: "1D09C662-147D-4D30-8FC4-3C474D04754C", name: "29", type: "Group", parent: Group, …}
+3 Group
+
+animations: [] (0)
+
+castShadow: false
+
+children: Array (2)
+0 Mesh {id: 26, uuid: "E65F268E-9C19-49DD-9930-5CF6364E4B08", name: "Cube025", type: "Mesh", parent: Group, …}
+1 Mesh {id: 27, uuid: "A37A5616-2D36-44CD-837B-95A7305D8AAA", name: "Cube025_1", type: "Mesh", parent: Group, …}
+
+Array Prototyp
+
+frustumCulled: true
+
+id: 28
+
+layers: Layers {mask: 1}
+
+matrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixAutoUpdate: true
+
+matrixWorld: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixWorldNeedsUpdate: false
+
+modelViewMatrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+name: "27"
+
+normalMatrix: Matrix3 {elements: Array, isMatrix3: true, flattenToArrayOffset: function, multiplyVector3: function, multiplyVector3Array: function, …}
+
+parent: Group {id: 18, uuid: "E58C3082-E206-40B7-9145-F304AC353D7E", name: "Scene", type: "Group", parent: Scene, …}
+
+position: Vector3 {x: -60.17012023925781, y: 16.221338272094727, z: -58.9273681640625, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+quaternion: Quaternion {_x: 0, _y: -0.9816084504127502, _z: 0, _w: 0.1909058541059494, _onChangeCallback: function, …}
+
+receiveShadow: false
+
+renderOrder: 0
+
+rotation: Euler {_x: 3.141592653589793, _y: -0.3841698214580095, _z: 3.141592653589793, _order: "XYZ", _onChangeCallback: function, …}
+
+scale: Vector3 {x: 10.650169372558594, y: 12.865962982177734, z: 6.899881839752197, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+type: "Group"
+
+up: Vector3 {x: 0, y: 1, z: 0, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+userData: {name: "27"}
+
+uuid: "2A7E3F47-0C47-4646-8DB0-4DBFD5AB2AEF"
+
+visible: true
+
+Group Prototyp
+4 Group
+
+animations: [] (0)
+
+castShadow: false
+
+children: Array (2)
+0 Mesh {id: 29, uuid: "68004240-9B34-473B-B463-F074B3F32E08", name: "Cube026", type: "Mesh", parent: Group, …}
+1 Mesh {id: 30, uuid: "69ABED6D-4CCD-41F9-A6F0-92421FDC5815", name: "Cube026_1", type: "Mesh", parent: Group, …}
+
+Array Prototyp
+
+frustumCulled: true
+
+id: 31
+
+layers: Layers {mask: 1}
+
+matrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixAutoUpdate: true
+
+matrixWorld: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixWorldNeedsUpdate: false
+
+modelViewMatrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+name: "21-25"
+
+normalMatrix: Matrix3 {elements: Array, isMatrix3: true, flattenToArrayOffset: function, multiplyVector3: function, multiplyVector3Array: function, …}
+
+parent: Group {id: 18, uuid: "E58C3082-E206-40B7-9145-F304AC353D7E", name: "Scene", type: "Group", parent: Scene, …}
+
+position: Vector3 {x: -46.055084228515625, y: 18.978302001953125, z: -64.63345336914062, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+quaternion: Quaternion {_x: 0, _y: -0.9816084504127502, _z: 0, _w: 0.1909058541059494, _onChangeCallback: function, …}
+
+receiveShadow: false
+
+renderOrder: 0
+
+rotation: Euler {_x: 3.141592653589793, _y: -0.3841698214580095, _z: 3.141592653589793, _order: "XYZ", _onChangeCallback: function, …}
+
+scale: Vector3 {x: 13.55644702911377, y: 12.865962982177734, z: 6.899881839752197, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+type: "Group"
+
+up: Vector3 {x: 0, y: 1, z: 0, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+userData: {name: "21-25"}
+
+uuid: "261DBC11-90C9-41CB-ACF5-BE2237AA2C21"
+
+visible: true
+
+Group Prototyp
+5 Group
+
+animations: [] (0)
+
+castShadow: false
+
+children: Array (2)
+0 Mesh {id: 32, uuid: "EB26F6BD-8837-47B1-BA4D-D879C5354B8D", name: "Cube027", type: "Mesh", parent: Group, …}
+1 Mesh {id: 33, uuid: "F4F9C58C-CA91-4223-BF9D-D9A31103A3E1", name: "Cube027_1", type: "Mesh", parent: Group, …}
+
+Array Prototyp
+
+frustumCulled: true
+
+id: 34
+
+layers: Layers {mask: 1}
+
+matrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixAutoUpdate: true
+
+matrixWorld: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixWorldNeedsUpdate: false
+
+modelViewMatrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+name: "19"
+
+normalMatrix: Matrix3 {elements: Array, isMatrix3: true, flattenToArrayOffset: function, multiplyVector3: function, multiplyVector3Array: function, …}
+
+parent: Group {id: 18, uuid: "E58C3082-E206-40B7-9145-F304AC353D7E", name: "Scene", type: "Group", parent: Scene, …}
+
+position: Vector3 {x: -31.73412322998047, y: 18.978302001953125, z: -70.42278289794922, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+quaternion: Quaternion {_x: 0, _y: -0.9816084504127502, _z: 0, _w: 0.1909058541059494, _onChangeCallback: function, …}
+
+receiveShadow: false
+
+renderOrder: 0
+
+rotation: Euler {_x: 3.141592653589793, _y: -0.3841698214580095, _z: 3.141592653589793, _order: "XYZ", _onChangeCallback: function, …}
+
+scale: Vector3 {x: 10.650169372558594, y: 12.865962982177734, z: 6.899881839752197, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+type: "Group"
+
+up: Vector3 {x: 0, y: 1, z: 0, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+userData: {name: "19"}
+
+uuid: "F0D0252C-6A0E-44FD-A642-3053AEFC9011"
+
+visible: true
+
+Group Prototyp
+6 Group
+
+animations: [] (0)
+
+castShadow: false
+
+children: Array (2)
+0 Mesh {id: 35, uuid: "BE521435-3820-4AA5-B0C7-C752F8E64B82", name: "Cube016", type: "Mesh", parent: Group, …}
+1 Mesh {id: 36, uuid: "FCF04CE7-5023-443E-81B7-FA7ED0F282E9", name: "Cube016_1", type: "Mesh", parent: Group, …}
+
+Array Prototyp
+
+frustumCulled: true
+
+id: 37
+
+layers: Layers {mask: 1}
+
+matrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixAutoUpdate: true
+
+matrixWorld: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixWorldNeedsUpdate: false
+
+modelViewMatrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+name: "43"
+
+normalMatrix: Matrix3 {elements: Array, isMatrix3: true, flattenToArrayOffset: function, multiplyVector3: function, multiplyVector3Array: function, …}
+
+parent: Group {id: 18, uuid: "E58C3082-E206-40B7-9145-F304AC353D7E", name: "Scene", type: "Group", parent: Scene, …}
+
+position: Vector3 {x: -171.08558654785156, y: 19.767684936523438, z: -14.089153289794922, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+quaternion: Quaternion {_x: 0, _y: -0.9816084504127502, _z: 0, _w: 0.1909058541059494, _onChangeCallback: function, …}
+
+receiveShadow: false
+
+renderOrder: 0
+
+rotation: Euler {_x: 3.141592653589793, _y: -0.3841698214580095, _z: 3.141592653589793, _order: "XYZ", _onChangeCallback: function, …}
+
+scale: Vector3 {x: 10.650169372558594, y: 12.865962982177734, z: 6.899881839752197, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+type: "Group"
+
+up: Vector3 {x: 0, y: 1, z: 0, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+userData: {name: "43"}
+
+uuid: "C576A601-D2C3-46B0-9368-36CE0E8BC118"
+
+visible: true
+
+Group Prototyp
+7 Group
+
+animations: [] (0)
+
+castShadow: false
+
+children: Array (2)
+0 Mesh {id: 38, uuid: "C803D84F-EC2A-41CE-B42C-8122BC3B7D5C", name: "Cube030", type: "Mesh", parent: Group, …}
+1 Mesh {id: 39, uuid: "2165A48D-8698-4541-B99B-782120F3559C", name: "Cube030_1", type: "Mesh", parent: Group, …}
+
+Array Prototyp
+
+frustumCulled: true
+
+id: 40
+
+layers: Layers {mask: 1}
+
+matrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixAutoUpdate: true
+
+matrixWorld: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixWorldNeedsUpdate: false
+
+modelViewMatrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+name: "45"
+
+normalMatrix: Matrix3 {elements: Array, isMatrix3: true, flattenToArrayOffset: function, multiplyVector3: function, multiplyVector3Array: function, …}
+
+parent: Group {id: 18, uuid: "E58C3082-E206-40B7-9145-F304AC353D7E", name: "Scene", type: "Group", parent: Scene, …}
+
+position: Vector3 {x: -180.03076171875, y: 19.767684936523438, z: -10.473016738891602, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+quaternion: Quaternion {_x: 0, _y: -0.9816084504127502, _z: 0, _w: 0.1909058541059494, _onChangeCallback: function, …}
+
+receiveShadow: false
+
+renderOrder: 0
+
+rotation: Euler {_x: 3.141592653589793, _y: -0.3841698214580095, _z: 3.141592653589793, _order: "XYZ", _onChangeCallback: function, …}
+
+scale: Vector3 {x: 10.650169372558594, y: 12.865962982177734, z: 6.899881839752197, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+type: "Group"
+
+up: Vector3 {x: 0, y: 1, z: 0, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+userData: {name: "45"}
+
+uuid: "7DE4F7DC-991D-4CB2-A1AF-AF1443CEC236"
+
+visible: true
+
+Group Prototyp
+8 Group
+
+animations: [] (0)
+
+castShadow: false
+
+children: Array (2)
+0 Mesh {id: 41, uuid: "D054CCCD-0907-4031-B1AB-30939D992795", name: "Cube031", type: "Mesh", parent: Group, …}
+1 Mesh {id: 42, uuid: "17F49E48-D2B3-4343-9C08-47A8BF5CF87D", name: "Cube031_1", type: "Mesh", parent: Group, …}
+
+Array Prototyp
+
+frustumCulled: true
+
+id: 43
+
+layers: Layers {mask: 1}
+
+matrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixAutoUpdate: true
+
+matrixWorld: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixWorldNeedsUpdate: false
+
+modelViewMatrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+name: "47"
+
+normalMatrix: Matrix3 {elements: Array, isMatrix3: true, flattenToArrayOffset: function, multiplyVector3: function, multiplyVector3Array: function, …}
+
+parent: Group {id: 18, uuid: "E58C3082-E206-40B7-9145-F304AC353D7E", name: "Scene", type: "Group", parent: Scene, …}
+
+position: Vector3 {x: -189.44248962402344, y: 19.767684936523438, z: -6.668270111083984, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+quaternion: Quaternion {_x: 0, _y: -0.9816084504127502, _z: 0, _w: 0.1909058541059494, _onChangeCallback: function, …}
+
+receiveShadow: false
+
+renderOrder: 0
+
+rotation: Euler {_x: 3.141592653589793, _y: -0.3841698214580095, _z: 3.141592653589793, _order: "XYZ", _onChangeCallback: function, …}
+
+scale: Vector3 {x: 10.650169372558594, y: 12.865962982177734, z: 6.899881839752197, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+type: "Group"
+
+up: Vector3 {x: 0, y: 1, z: 0, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+userData: {name: "47"}
+
+uuid: "9DC30125-4681-4506-92AB-60FEC5D0EDB4"
+
+visible: true
+
+Group Prototyp
+9 Group
+
+animations: [] (0)
+
+castShadow: false
+
+children: Array (2)
+0 Mesh {id: 44, uuid: "BB78F659-6115-41F2-9274-CC3A343A4653", name: "Cube032", type: "Mesh", parent: Group, …}
+1 Mesh {id: 45, uuid: "054DF14F-8E6B-48BF-AC11-C7CA15148CB2", name: "Cube032_1", type: "Mesh", parent: Group, …}
+
+Array Prototyp
+
+frustumCulled: true
+
+id: 46
+
+layers: Layers {mask: 1}
+
+matrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixAutoUpdate: true
+
+matrixWorld: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixWorldNeedsUpdate: false
+
+modelViewMatrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+name: "49"
+
+normalMatrix: Matrix3 {elements: Array, isMatrix3: true, flattenToArrayOffset: function, multiplyVector3: function, multiplyVector3Array: function, …}
+
+parent: Group {id: 18, uuid: "E58C3082-E206-40B7-9145-F304AC353D7E", name: "Scene", type: "Group", parent: Scene, …}
+
+position: Vector3 {x: -198.49435424804688, y: 19.767684936523438, z: -3.009000062942505, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+quaternion: Quaternion {_x: 0, _y: -0.9816084504127502, _z: 0, _w: 0.1909058541059494, _onChangeCallback: function, …}
+
+receiveShadow: false
+
+renderOrder: 0
+
+rotation: Euler {_x: 3.141592653589793, _y: -0.3841698214580095, _z: 3.141592653589793, _order: "XYZ", _onChangeCallback: function, …}
+
+scale: Vector3 {x: 10.650169372558594, y: 12.865962982177734, z: 6.899881839752197, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+type: "Group"
+
+up: Vector3 {x: 0, y: 1, z: 0, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+userData: {name: "49"}
+
+uuid: "2557AC4F-8D82-4D62-88BA-1B54155816BD"
+
+visible: true
+
+Group Prototyp
+10 Group
+
+animations: [] (0)
+
+castShadow: false
+
+children: Array (2)
+0 Mesh {id: 47, uuid: "BB70FF23-4ECD-4723-85FF-756557232FDA", name: "Cube033", type: "Mesh", parent: Group, …}
+1 Mesh {id: 48, uuid: "9924D09C-63CC-4A7F-9402-0901B3693E55", name: "Cube033_1", type: "Mesh", parent: Group, …}
+
+Array Prototyp
+
+frustumCulled: true
+
+id: 49
+
+layers: Layers {mask: 1}
+
+matrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixAutoUpdate: true
+
+matrixWorld: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixWorldNeedsUpdate: false
+
+modelViewMatrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+name: "51"
+
+normalMatrix: Matrix3 {elements: Array, isMatrix3: true, flattenToArrayOffset: function, multiplyVector3: function, multiplyVector3Array: function, …}
+
+parent: Group {id: 18, uuid: "E58C3082-E206-40B7-9145-F304AC353D7E", name: "Scene", type: "Group", parent: Scene, …}
+
+position: Vector3 {x: -206.20095825195312, y: 19.767684936523438, z: 0.10644054412841797, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+quaternion: Quaternion {_x: 0, _y: -0.9816084504127502, _z: 0, _w: 0.1909058541059494, _onChangeCallback: function, …}
+
+receiveShadow: false
+
+renderOrder: 0
+
+rotation: Euler {_x: 3.141592653589793, _y: -0.3841698214580095, _z: 3.141592653589793, _order: "XYZ", _onChangeCallback: function, …}
+
+scale: Vector3 {x: 10.650169372558594, y: 12.865962982177734, z: 6.899881839752197, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+type: "Group"
+
+up: Vector3 {x: 0, y: 1, z: 0, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+userData: {name: "51"}
+
+uuid: "6EBC9B78-EB63-44DD-BE9A-A1060B9C6623"
+
+visible: true
+
+Group Prototyp
+11 Group
+
+animations: [] (0)
+
+castShadow: false
+
+children: Array (2)
+0 Mesh {id: 50, uuid: "108A6B7E-57EF-4860-9603-31DBFBFC3794", name: "Cube034", type: "Mesh", parent: Group, …}
+1 Mesh {id: 51, uuid: "DE615174-1D52-4E62-8F41-9414595B5783", name: "Cube034_1", type: "Mesh", parent: Group, …}
+
+Array Prototyp
+
+frustumCulled: true
+
+id: 52
+
+layers: Layers {mask: 1}
+
+matrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixAutoUpdate: true
+
+matrixWorld: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixWorldNeedsUpdate: false
+
+modelViewMatrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+name: "53"
+
+normalMatrix: Matrix3 {elements: Array, isMatrix3: true, flattenToArrayOffset: function, multiplyVector3: function, multiplyVector3Array: function, …}
+
+parent: Group {id: 18, uuid: "E58C3082-E206-40B7-9145-F304AC353D7E", name: "Scene", type: "Group", parent: Scene, …}
+
+position: Vector3 {x: -215.1046600341797, y: 19.767684936523438, z: 3.7058117389678955, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+quaternion: Quaternion {_x: 0, _y: -0.9816084504127502, _z: 0, _w: 0.1909058541059494, _onChangeCallback: function, …}
+
+receiveShadow: false
+
+renderOrder: 0
+
+rotation: Euler {_x: 3.141592653589793, _y: -0.3841698214580095, _z: 3.141592653589793, _order: "XYZ", _onChangeCallback: function, …}
+
+scale: Vector3 {x: 10.650169372558594, y: 12.865962982177734, z: 6.899881839752197, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+type: "Group"
+
+up: Vector3 {x: 0, y: 1, z: 0, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+userData: {name: "53"}
+
+uuid: "A8F33C29-D586-46F5-891A-C8CDD1E13C42"
+
+visible: true
+
+Group Prototyp
+12 Group
+
+animations: [] (0)
+
+castShadow: false
+
+children: Array (2)
+0 Mesh {id: 53, uuid: "15A55618-B51D-4DF0-8776-4A6CA195D84F", name: "Cube012", type: "Mesh", parent: Group, …}
+1 Mesh {id: 54, uuid: "8EC8839E-E0C2-4F60-A768-E80276C48F87", name: "Cube012_1", type: "Mesh", parent: Group, …}
+
+Array Prototyp
+
+frustumCulled: true
+
+id: 55
+
+layers: Layers {mask: 1}
+
+matrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixAutoUpdate: true
+
+matrixWorld: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixWorldNeedsUpdate: false
+
+modelViewMatrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+name: "16001"
+
+normalMatrix: Matrix3 {elements: Array, isMatrix3: true, flattenToArrayOffset: function, multiplyVector3: function, multiplyVector3Array: function, …}
+
+parent: Group {id: 18, uuid: "E58C3082-E206-40B7-9145-F304AC353D7E", name: "Scene", type: "Group", parent: Scene, …}
+
+position: Vector3 {x: -146.73646545410156, y: 14.875093460083008, z: -69.81525421142578, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+quaternion: Quaternion {_x: 0, _y: -0.9799945950508118, _z: 0, _w: 0.19902397692203522, _onChangeCallback: function, …}
+
+receiveShadow: false
+
+renderOrder: 0
+
+rotation: Euler {_x: 3.141592653589793, _y: -0.40072373391009936, _z: 3.141592653589793, _order: "XYZ", _onChangeCallback: function, …}
+
+scale: Vector3 {x: 9.483774185180664, y: 12.865962982177734, z: 8.335418701171875, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+type: "Group"
+
+up: Vector3 {x: 0, y: 1, z: 0, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+userData: {name: "16.001"}
+
+uuid: "2D7808F9-FFC7-40DF-A128-B40E5C948DCC"
+
+visible: true
+
+Group Prototyp
+13 Group
+
+animations: [] (0)
+
+castShadow: false
+
+children: Array (2)
+0 Mesh {id: 56, uuid: "F8E4706E-E688-4D2A-84AA-2DD4AB761137", name: "Cube036", type: "Mesh", parent: Group, …}
+1 Mesh {id: 57, uuid: "0A892719-8C4B-494F-AF51-69CD00340C59", name: "Cube036_1", type: "Mesh", parent: Group, …}
+
+Array Prototyp
+
+frustumCulled: true
+
+id: 58
+
+layers: Layers {mask: 1}
+
+matrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixAutoUpdate: true
+
+matrixWorld: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixWorldNeedsUpdate: false
+
+modelViewMatrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+name: "46"
+
+normalMatrix: Matrix3 {elements: Array, isMatrix3: true, flattenToArrayOffset: function, multiplyVector3: function, multiplyVector3Array: function, …}
+
+parent: Group {id: 18, uuid: "E58C3082-E206-40B7-9145-F304AC353D7E", name: "Scene", type: "Group", parent: Scene, …}
+
+position: Vector3 {x: -201.30386352539062, y: 16.249300003051758, z: -25.130126953125, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+quaternion: Quaternion {_x: 0, _y: -0.9816084504127502, _z: 0, _w: 0.1909058541059494, _onChangeCallback: function, …}
+
+receiveShadow: false
+
+renderOrder: 0
+
+rotation: Euler {_x: 3.141592653589793, _y: -0.3841698214580095, _z: 3.141592653589793, _order: "XYZ", _onChangeCallback: function, …}
+
+scale: Vector3 {x: 10.650169372558594, y: 12.865962982177734, z: 6.899881839752197, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+type: "Group"
+
+up: Vector3 {x: 0, y: 1, z: 0, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+userData: {name: "46"}
+
+uuid: "BAA3FA64-2C6D-470A-9E58-40C4B3A1F8AB"
+
+visible: true
+
+Group Prototyp
+14 Group
+
+animations: [] (0)
+
+castShadow: false
+
+children: Array (2)
+0 Mesh {id: 59, uuid: "EBAD37C1-C7F6-457B-9EAC-99C094B75EA9", name: "Cube037", type: "Mesh", parent: Group, …}
+1 Mesh {id: 60, uuid: "21C56AD8-FABC-4695-A2A7-79EA8A809CD5", name: "Cube037_1", type: "Mesh", parent: Group, …}
+
+Array Prototyp
+
+frustumCulled: true
+
+id: 61
+
+layers: Layers {mask: 1}
+
+matrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixAutoUpdate: true
+
+matrixWorld: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixWorldNeedsUpdate: false
+
+modelViewMatrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+name: "44"
+
+normalMatrix: Matrix3 {elements: Array, isMatrix3: true, flattenToArrayOffset: function, multiplyVector3: function, multiplyVector3Array: function, …}
+
+parent: Group {id: 18, uuid: "E58C3082-E206-40B7-9145-F304AC353D7E", name: "Scene", type: "Group", parent: Scene, …}
+
+position: Vector3 {x: -191.10504150390625, y: 16.249300003051758, z: -29.2530574798584, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+quaternion: Quaternion {_x: 0, _y: -0.9816084504127502, _z: 0, _w: 0.1909058541059494, _onChangeCallback: function, …}
+
+receiveShadow: false
+
+renderOrder: 0
+
+rotation: Euler {_x: 3.141592653589793, _y: -0.3841698214580095, _z: 3.141592653589793, _order: "XYZ", _onChangeCallback: function, …}
+
+scale: Vector3 {x: 10.650169372558594, y: 12.865962982177734, z: 6.899881839752197, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+type: "Group"
+
+up: Vector3 {x: 0, y: 1, z: 0, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+userData: {name: "44"}
+
+uuid: "D7811399-C295-458D-8276-323920DBA08B"
+
+visible: true
+
+Group Prototyp
+15 Group
+
+animations: [] (0)
+
+castShadow: false
+
+children: Array (2)
+0 Mesh {id: 62, uuid: "73A2EA32-A893-4691-92DC-EE37E634CCCB", name: "Cube038", type: "Mesh", parent: Group, …}
+1 Mesh {id: 63, uuid: "FC63D89B-5654-4F61-A02D-F0BFC2C25A09", name: "Cube038_1", type: "Mesh", parent: Group, …}
+
+Array Prototyp
+
+frustumCulled: true
+
+id: 64
+
+layers: Layers {mask: 1}
+
+matrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixAutoUpdate: true
+
+matrixWorld: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixWorldNeedsUpdate: false
+
+modelViewMatrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+name: "37"
+
+normalMatrix: Matrix3 {elements: Array, isMatrix3: true, flattenToArrayOffset: function, multiplyVector3: function, multiplyVector3Array: function, …}
+
+parent: Group {id: 18, uuid: "E58C3082-E206-40B7-9145-F304AC353D7E", name: "Scene", type: "Group", parent: Scene, …}
+
+position: Vector3 {x: -109.47319030761719, y: 17.503549575805664, z: -38.99631881713867, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+quaternion: Quaternion {_x: 0, _y: -0.9816084504127502, _z: 0, _w: 0.1909058541059494, _onChangeCallback: function, …}
+
+receiveShadow: false
+
+renderOrder: 0
+
+rotation: Euler {_x: 3.141592653589793, _y: -0.3841698214580095, _z: 3.141592653589793, _order: "XYZ", _onChangeCallback: function, …}
+
+scale: Vector3 {x: 10.650169372558594, y: 12.865962982177734, z: 6.899881839752197, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+type: "Group"
+
+up: Vector3 {x: 0, y: 1, z: 0, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+userData: {name: "37"}
+
+uuid: "19F29279-2100-454F-B126-9DC19B4DC381"
+
+visible: true
+
+Group Prototyp
+16 Group
+
+animations: [] (0)
+
+castShadow: false
+
+children: Array (2)
+0 Mesh {id: 65, uuid: "FC3B8990-4FB9-4D5F-A02E-A5D18CDD922A", name: "Cube039", type: "Mesh", parent: Group, …}
+1 Mesh {id: 66, uuid: "A0D6BA75-1793-49B7-A08B-8872392D3A26", name: "Cube039_1", type: "Mesh", parent: Group, …}
+
+Array Prototyp
+
+frustumCulled: true
+
+id: 67
+
+layers: Layers {mask: 1}
+
+matrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixAutoUpdate: true
+
+matrixWorld: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixWorldNeedsUpdate: false
+
+modelViewMatrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+name: "32"
+
+normalMatrix: Matrix3 {elements: Array, isMatrix3: true, flattenToArrayOffset: function, multiplyVector3: function, multiplyVector3Array: function, …}
+
+parent: Group {id: 18, uuid: "E58C3082-E206-40B7-9145-F304AC353D7E", name: "Scene", type: "Group", parent: Scene, …}
+
+position: Vector3 {x: -118.23370361328125, y: 17.503549575805664, z: -60.66704559326172, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+quaternion: Quaternion {_x: 0, _y: -0.9816084504127502, _z: 0, _w: 0.1909058541059494, _onChangeCallback: function, …}
+
+receiveShadow: false
+
+renderOrder: 0
+
+rotation: Euler {_x: 3.141592653589793, _y: -0.3841698214580095, _z: 3.141592653589793, _order: "XYZ", _onChangeCallback: function, …}
+
+scale: Vector3 {x: 10.650169372558594, y: 12.865962982177734, z: 6.899881839752197, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+type: "Group"
+
+up: Vector3 {x: 0, y: 1, z: 0, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+userData: {name: "32"}
+
+uuid: "DF226123-0CD0-4799-8F7E-2510C9A5227E"
+
+visible: true
+
+Group Prototyp
+17 Group
+
+animations: [] (0)
+
+castShadow: false
+
+children: Array (2)
+0 Mesh {id: 68, uuid: "41B2C476-387A-4BDC-9559-D8C583FF418E", name: "Cube040", type: "Mesh", parent: Group, …}
+1 Mesh {id: 69, uuid: "5D95057D-20EC-45B0-AB5F-ED81E3E7BEE2", name: "Cube040_1", type: "Mesh", parent: Group, …}
+
+Array Prototyp
+
+frustumCulled: true
+
+id: 70
+
+layers: Layers {mask: 1}
+
+matrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixAutoUpdate: true
+
+matrixWorld: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixWorldNeedsUpdate: false
+
+modelViewMatrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+name: "34"
+
+normalMatrix: Matrix3 {elements: Array, isMatrix3: true, flattenToArrayOffset: function, multiplyVector3: function, multiplyVector3Array: function, …}
+
+parent: Group {id: 18, uuid: "E58C3082-E206-40B7-9145-F304AC353D7E", name: "Scene", type: "Group", parent: Scene, …}
+
+position: Vector3 {x: -127.73675537109375, y: 17.503549575805664, z: -56.82537841796875, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+quaternion: Quaternion {_x: 0, _y: -0.9816084504127502, _z: 0, _w: 0.1909058541059494, _onChangeCallback: function, …}
+
+receiveShadow: false
+
+renderOrder: 0
+
+rotation: Euler {_x: 3.141592653589793, _y: -0.3841698214580095, _z: 3.141592653589793, _order: "XYZ", _onChangeCallback: function, …}
+
+scale: Vector3 {x: 10.650169372558594, y: 12.865962982177734, z: 6.899881839752197, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+type: "Group"
+
+up: Vector3 {x: 0, y: 1, z: 0, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+userData: {name: "34"}
+
+uuid: "470CAADC-E06B-4A52-BAD3-0A52571A192E"
+
+visible: true
+
+Group Prototyp
+18 Group
+
+animations: [] (0)
+
+castShadow: false
+
+children: Array (2)
+0 Mesh {id: 71, uuid: "D8789DB5-F1D1-42D3-BFB0-DA84CB717B0B", name: "Cube041", type: "Mesh", parent: Group, …}
+1 Mesh {id: 72, uuid: "85CB9606-8106-430E-8A5E-E0A5C72FDBB6", name: "Cube041_1", type: "Mesh", parent: Group, …}
+
+Array Prototyp
+
+frustumCulled: true
+
+id: 73
+
+layers: Layers {mask: 1}
+
+matrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixAutoUpdate: true
+
+matrixWorld: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixWorldNeedsUpdate: false
+
+modelViewMatrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+name: "14"
+
+normalMatrix: Matrix3 {elements: Array, isMatrix3: true, flattenToArrayOffset: function, multiplyVector3: function, multiplyVector3Array: function, …}
+
+parent: Group {id: 18, uuid: "E58C3082-E206-40B7-9145-F304AC353D7E", name: "Scene", type: "Group", parent: Scene, …}
+
+position: Vector3 {x: -33.2625617980957, y: 17.503549575805664, z: -93.87468719482422, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+quaternion: Quaternion {_x: 0, _y: -0.9816084504127502, _z: 0, _w: 0.1909058541059494, _onChangeCallback: function, …}
+
+receiveShadow: false
+
+renderOrder: 0
+
+rotation: Euler {_x: 3.141592653589793, _y: -0.3841698214580095, _z: 3.141592653589793, _order: "XYZ", _onChangeCallback: function, …}
+
+scale: Vector3 {x: 10.650169372558594, y: 12.865962982177734, z: 6.899881839752197, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+type: "Group"
+
+up: Vector3 {x: 0, y: 1, z: 0, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+userData: {name: "14"}
+
+uuid: "9125190E-7232-457A-A7B8-32B38EE47D77"
+
+visible: true
+
+Group Prototyp
+19 Group
+
+animations: [] (0)
+
+castShadow: false
+
+children: Array (2)
+0 Mesh {id: 74, uuid: "BF76D695-A534-4456-9B78-47604C322695", name: "Cube042", type: "Mesh", parent: Group, …}
+1 Mesh {id: 75, uuid: "C46650CD-7C2B-4C19-AB17-C4702E5D0D98", name: "Cube042_1", type: "Mesh", parent: Group, …}
+
+Array Prototyp
+
+frustumCulled: true
+
+id: 76
+
+layers: Layers {mask: 1}
+
+matrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixAutoUpdate: true
+
+matrixWorld: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixWorldNeedsUpdate: false
+
+modelViewMatrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+name: "20"
+
+normalMatrix: Matrix3 {elements: Array, isMatrix3: true, flattenToArrayOffset: function, multiplyVector3: function, multiplyVector3Array: function, …}
+
+parent: Group {id: 18, uuid: "E58C3082-E206-40B7-9145-F304AC353D7E", name: "Scene", type: "Group", parent: Scene, …}
+
+position: Vector3 {x: -48.98463439941406, y: 17.503549575805664, z: -87.51895141601562, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+quaternion: Quaternion {_x: 0, _y: -0.9816084504127502, _z: 0, _w: 0.1909058541059494, _onChangeCallback: function, …}
+
+receiveShadow: false
+
+renderOrder: 0
+
+rotation: Euler {_x: 3.141592653589793, _y: -0.3841698214580095, _z: 3.141592653589793, _order: "XYZ", _onChangeCallback: function, …}
+
+scale: Vector3 {x: 10.650169372558594, y: 12.865962982177734, z: 6.899881839752197, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+type: "Group"
+
+up: Vector3 {x: 0, y: 1, z: 0, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+userData: {name: "20"}
+
+uuid: "668878A8-7A42-4178-B576-910382ABC7C1"
+
+visible: true
+
+Group Prototyp
+20 Group
+
+animations: [] (0)
+
+castShadow: false
+
+children: Array (2)
+0 Mesh {id: 77, uuid: "F6CF617A-29EF-4F7E-8507-47E6ECE939DF", name: "Cube028", type: "Mesh", parent: Group, …}
+1 Mesh {id: 78, uuid: "685FD85C-6CA4-46B5-959B-1D1A7BD3CBDC", name: "Cube028_1", type: "Mesh", parent: Group, …}
+
+Array Prototyp
+
+frustumCulled: true
+
+id: 79
+
+layers: Layers {mask: 1}
+
+matrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixAutoUpdate: true
+
+matrixWorld: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixWorldNeedsUpdate: false
+
+modelViewMatrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+name: "6-14"
+
+normalMatrix: Matrix3 {elements: Array, isMatrix3: true, flattenToArrayOffset: function, multiplyVector3: function, multiplyVector3Array: function, …}
+
+parent: Group {id: 18, uuid: "E58C3082-E206-40B7-9145-F304AC353D7E", name: "Scene", type: "Group", parent: Scene, …}
+
+position: Vector3 {x: -77.6956787109375, y: 18.978303909301758, z: -112.26449584960938, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+quaternion: Quaternion {_x: 0, _y: -0.9816084504127502, _z: 0, _w: 0.1909058541059494, _onChangeCallback: function, …}
+
+receiveShadow: false
+
+renderOrder: 0
+
+rotation: Euler {_x: 3.141592653589793, _y: -0.3841698214580095, _z: 3.141592653589793, _order: "XYZ", _onChangeCallback: function, …}
+
+scale: Vector3 {x: 13.55644702911377, y: 12.865962982177734, z: 6.899881839752197, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+type: "Group"
+
+up: Vector3 {x: 0, y: 1, z: 0, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+userData: {name: "6-14"}
+
+uuid: "3354EEE6-6604-492B-8C47-FE0081DA8D08"
+
+visible: true
+
+Group Prototyp
+21 Group
+
+animations: [] (0)
+
+castShadow: false
+
+children: Array (2)
+0 Mesh {id: 80, uuid: "C8B4509D-42FB-43D3-8EAE-1153CB1644C8", name: "Cube029", type: "Mesh", parent: Group, …}
+1 Mesh {id: 81, uuid: "916C88AD-54A4-4F05-B6E9-208DBE6DE32D", name: "Cube029_1", type: "Mesh", parent: Group, …}
+
+Array Prototyp
+
+frustumCulled: true
+
+id: 82
+
+layers: Layers {mask: 1}
+
+matrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixAutoUpdate: true
+
+matrixWorld: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixWorldNeedsUpdate: false
+
+modelViewMatrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+name: "16"
+
+normalMatrix: Matrix3 {elements: Array, isMatrix3: true, flattenToArrayOffset: function, multiplyVector3: function, multiplyVector3Array: function, …}
+
+parent: Group {id: 18, uuid: "E58C3082-E206-40B7-9145-F304AC353D7E", name: "Scene", type: "Group", parent: Scene, …}
+
+position: Vector3 {x: -88.68413543701172, y: 18.978303909301758, z: -139.44644165039062, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+quaternion: Quaternion {_x: 0, _y: -0.9816084504127502, _z: 0, _w: 0.1909058541059494, _onChangeCallback: function, …}
+
+receiveShadow: false
+
+renderOrder: 0
+
+rotation: Euler {_x: 3.141592653589793, _y: -0.3841698214580095, _z: 3.141592653589793, _order: "XYZ", _onChangeCallback: function, …}
+
+scale: Vector3 {x: 13.55644702911377, y: 12.865962982177734, z: 6.899881839752197, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+type: "Group"
+
+up: Vector3 {x: 0, y: 1, z: 0, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+userData: {name: "16"}
+
+uuid: "E646C1D5-7EDA-4E0A-A005-359ADA56B22F"
+
+visible: true
+
+Group Prototyp
+22 Group
+
+animations: Array (0)
+Keine Eigenschaften
+
+Array Prototyp
+
+castShadow: false
+
+children: Array (2)
+0 Mesh {id: 83, uuid: "53A8C526-C7D5-4285-872D-443D5039EC72", name: "Cube043", type: "Mesh", parent: Group, …}
+1 Mesh {id: 84, uuid: "D20FFE9C-D921-4BC1-BD45-1C1401336260", name: "Cube043_1", type: "Mesh", parent: Group, …}
+
+Array Prototyp
+
+frustumCulled: true
+
+id: 85
+
+layers: Layers {mask: 1}
+
+matrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixAutoUpdate: true
+
+matrixWorld: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixWorldNeedsUpdate: false
+
+modelViewMatrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+name: "5"
+
+normalMatrix: Matrix3 {elements: Array, isMatrix3: true, flattenToArrayOffset: function, multiplyVector3: function, multiplyVector3Array: function, …}
+
+parent: Group {id: 18, uuid: "E58C3082-E206-40B7-9145-F304AC353D7E", name: "Scene", type: "Group", parent: Scene, …}
+
+position: Vector3 {x: -97.65930938720703, y: 18.978303909301758, z: -104.19408416748047, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+quaternion: Quaternion {_x: 0, _y: -0.9816084504127502, _z: 0, _w: 0.1909058541059494, _onChangeCallback: function, …}
+
+receiveShadow: false
+
+renderOrder: 0
+
+rotation: Euler {_x: 3.141592653589793, _y: -0.3841698214580095, _z: 3.141592653589793, _order: "XYZ", _onChangeCallback: function, …}
+
+scale: Vector3 {x: 13.55644702911377, y: 12.865962982177734, z: 6.899881839752197, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+type: "Group"
+
+up: Vector3 {x: 0, y: 1, z: 0, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+userData: {name: "5"}
+
+uuid: "6EBDD62A-8CDE-4C4B-8331-B96500C2CEB2"
+
+visible: true
+
+Group Prototyp
+23 Group
+
+animations: [] (0)
+
+castShadow: false
+
+children: Array (2)
+0 Mesh {id: 86, uuid: "30825647-4626-4DA5-9FF2-D3543BE6383E", name: "Cube044", type: "Mesh", parent: Group, …}
+1 Mesh {id: 87, uuid: "BBB66278-6FC3-49A9-9512-50C45E0909D1", name: "Cube044_1", type: "Mesh", parent: Group, …}
+
+Array Prototyp
+
+frustumCulled: true
+
+id: 88
+
+layers: Layers {mask: 1}
+
+matrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixAutoUpdate: true
+
+matrixWorld: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixWorldNeedsUpdate: false
+
+modelViewMatrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+name: "7"
+
+normalMatrix: Matrix3 {elements: Array, isMatrix3: true, flattenToArrayOffset: function, multiplyVector3: function, multiplyVector3Array: function, …}
+
+parent: Group {id: 18, uuid: "E58C3082-E206-40B7-9145-F304AC353D7E", name: "Scene", type: "Group", parent: Scene, …}
+
+position: Vector3 {x: -101.7496566772461, y: 15.834442138671875, z: -114.31230926513672, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+quaternion: Quaternion {_x: 0, _y: -0.9816084504127502, _z: 0, _w: 0.1909058541059494, _onChangeCallback: function, …}
+
+receiveShadow: false
+
+renderOrder: 0
+
+rotation: Euler {_x: 3.141592653589793, _y: -0.3841698214580095, _z: 3.141592653589793, _order: "XYZ", _onChangeCallback: function, …}
+
+scale: Vector3 {x: 14.44262981414795, y: 13.70700740814209, z: 7.350925922393799, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+type: "Group"
+
+up: Vector3 {x: 0, y: 1, z: 0, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+userData: {name: "7"}
+
+uuid: "816C9567-E131-4489-BF53-78E1040750B6"
+
+visible: true
+
+Group Prototyp
+24 Group
+
+animations: [] (0)
+
+castShadow: false
+
+children: Array (2)
+0 Mesh {id: 89, uuid: "1EF520B6-917A-4691-BD2F-A4980A9CD4A2", name: "Cube045", type: "Mesh", parent: Group, …}
+1 Mesh {id: 90, uuid: "D635142B-A1D8-4C82-8C1F-4483B2A6D9B1", name: "Cube045_1", type: "Mesh", parent: Group, …}
+
+Array Prototyp
+
+frustumCulled: true
+
+id: 91
+
+layers: Layers {mask: 1}
+
+matrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixAutoUpdate: true
+
+matrixWorld: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixWorldNeedsUpdate: false
+
+modelViewMatrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+name: "11"
+
+normalMatrix: Matrix3 {elements: Array, isMatrix3: true, flattenToArrayOffset: function, multiplyVector3: function, multiplyVector3Array: function, …}
+
+parent: Group {id: 18, uuid: "E58C3082-E206-40B7-9145-F304AC353D7E", name: "Scene", type: "Group", parent: Scene, …}
+
+position: Vector3 {x: -98.4437026977539, y: 18.978303909301758, z: -115.40229797363281, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+quaternion: Quaternion {_x: 0, _y: -0.9816084504127502, _z: 0, _w: 0.1909058541059494, _onChangeCallback: function, …}
+
+receiveShadow: false
+
+renderOrder: 0
+
+rotation: Euler {_x: 3.141592653589793, _y: -0.3841698214580095, _z: 3.141592653589793, _order: "XYZ", _onChangeCallback: function, …}
+
+scale: Vector3 {x: 20.99148941040039, y: 19.92230796813965, z: 10.684126853942871, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+type: "Group"
+
+up: Vector3 {x: 0, y: 1, z: 0, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+userData: {name: "11"}
+
+uuid: "1CA85C57-492A-4FCD-B0BD-1BAAA49C2A91"
+
+visible: true
+
+Group Prototyp
+25 Group
+
+animations: [] (0)
+
+castShadow: false
+
+children: Array (2)
+0 Mesh {id: 92, uuid: "727BF73F-A3C7-4982-8F69-F60D03961078", name: "Cube017", type: "Mesh", parent: Group, …}
+1 Mesh {id: 93, uuid: "0106ABE0-EF13-4667-9E97-ABBE5E34ADDD", name: "Cube017_1", type: "Mesh", parent: Group, …}
+
+Array Prototyp
+
+frustumCulled: true
+
+id: 94
+
+layers: Layers {mask: 1}
+
+matrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixAutoUpdate: true
+
+matrixWorld: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixWorldNeedsUpdate: false
+
+modelViewMatrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+name: "Factory"
+
+normalMatrix: Matrix3 {elements: Array, isMatrix3: true, flattenToArrayOffset: function, multiplyVector3: function, multiplyVector3Array: function, …}
+
+parent: Group {id: 18, uuid: "E58C3082-E206-40B7-9145-F304AC353D7E", name: "Scene", type: "Group", parent: Scene, …}
+
+position: Vector3 {x: -179.7567901611328, y: 5.003788948059082, z: -117.75, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+quaternion: Quaternion {_x: 0, _y: 0.18223552405834198, _z: 0, _w: 0.9832549095153809, _onChangeCallback: function, …}
+
+receiveShadow: false
+
+renderOrder: 0
+
+rotation: Euler {_x: -0, _y: 0.3665191406604562, _z: -0, _order: "XYZ", _onChangeCallback: function, …}
+
+scale: Vector3 {x: -1.4861700534820557, y: -0.3830415606498718, z: -0.3830416202545166, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+type: "Group"
+
+up: Vector3 {x: 0, y: 1, z: 0, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+userData: {name: "Factory"}
+
+uuid: "50D72B50-2484-4923-9108-886B78E768DA"
+
+visible: true
+
+Group Prototyp
+26 Group
+
+animations: [] (0)
+
+castShadow: false
+
+children: Array (2)
+0 Mesh {id: 95, uuid: "7886A217-9762-4A02-8464-D1308B179199", name: "Cube020", type: "Mesh", parent: Group, …}
+1 Mesh {id: 96, uuid: "D1EAD938-A57A-456C-94AE-969A94367442", name: "Cube020_1", type: "Mesh", parent: Group, …}
+
+Array Prototyp
+
+frustumCulled: true
+
+id: 97
+
+layers: Layers {mask: 1}
+
+matrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixAutoUpdate: true
+
+matrixWorld: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixWorldNeedsUpdate: false
+
+modelViewMatrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+name: "Factory001"
+
+normalMatrix: Matrix3 {elements: Array, isMatrix3: true, flattenToArrayOffset: function, multiplyVector3: function, multiplyVector3Array: function, …}
+
+parent: Group {id: 18, uuid: "E58C3082-E206-40B7-9145-F304AC353D7E", name: "Scene", type: "Group", parent: Scene, …}
+
+position: Vector3 {x: -162.5061798095703, y: 5.003787040710449, z: -164.7293243408203, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+quaternion: Quaternion {_x: 0, _y: 0.18223552405834198, _z: 0, _w: 0.9832549095153809, _onChangeCallback: function, …}
+
+receiveShadow: false
+
+renderOrder: 0
+
+rotation: Euler {_x: -0, _y: 0.3665191406604562, _z: -0, _order: "XYZ", _onChangeCallback: function, …}
+
+scale: Vector3 {x: -1.4861700534820557, y: -0.3830415606498718, z: -0.3830416202545166, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+type: "Group"
+
+up: Vector3 {x: 0, y: 1, z: 0, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+userData: {name: "Factory.001"}
+
+uuid: "4D201EA5-8166-4446-93CE-1F9F5981381A"
+
+visible: true
+
+Group Prototyp
+27 Group
+
+animations: [] (0)
+
+castShadow: false
+
+children: Array (2)
+0 Mesh {id: 98, uuid: "2BA51953-01EF-4C44-A05F-FA02E0595D3F", name: "Cube002", type: "Mesh", parent: Group, …}
+1 Mesh {id: 99, uuid: "CFED5BEA-E313-4B5C-86CD-F3466D1E9ED5", name: "Cube002_1", type: "Mesh", parent: Group, …}
+
+Array Prototyp
+
+frustumCulled: true
+
+id: 100
+
+layers: Layers {mask: 1}
+
+matrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixAutoUpdate: true
+
+matrixWorld: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixWorldNeedsUpdate: false
+
+modelViewMatrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+name: "36a"
+
+normalMatrix: Matrix3 {elements: Array, isMatrix3: true, flattenToArrayOffset: function, multiplyVector3: function, multiplyVector3Array: function, …}
+
+parent: Group {id: 18, uuid: "E58C3082-E206-40B7-9145-F304AC353D7E", name: "Scene", type: "Group", parent: Scene, …}
+
+position: Vector3 {x: -79.46613311767578, y: 16.978302001953125, z: -25.417221069335938, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+quaternion: Quaternion {_x: 0, _y: -0.933223307132721, _z: 0, _w: 0.35929685831069946, _onChangeCallback: function, …}
+
+receiveShadow: false
+
+renderOrder: 0
+
+rotation: Euler {_x: 3.141592653589793, _y: -0.7350286444681986, _z: 3.141592653589793, _order: "XYZ", _onChangeCallback: function, …}
+
+scale: Vector3 {x: 8.30957317352295, y: 8.58807373046875, z: 5.383489608764648, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+type: "Group"
+
+up: Vector3 {x: 0, y: 1, z: 0, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+userData: {name: "36a"}
+
+uuid: "C597330B-6BAE-4BBA-9CC7-6DD0D69E9AFF"
+
+visible: true
+
+Group Prototyp
+28 Group
+
+animations: [] (0)
+
+castShadow: false
+
+children: Array (2)
+0 Mesh {id: 101, uuid: "12BEE19B-CF7B-4675-9C58-44E0F7EBBC91", name: "Cube004", type: "Mesh", parent: Group, …}
+1 Mesh {id: 102, uuid: "B033098D-1859-49FE-862B-31999CBC84ED", name: "Cube004_1", type: "Mesh", parent: Group, …}
+
+Array Prototyp
+
+frustumCulled: true
+
+id: 103
+
+layers: Layers {mask: 1}
+
+matrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixAutoUpdate: true
+
+matrixWorld: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixWorldNeedsUpdate: false
+
+modelViewMatrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+name: "38"
+
+normalMatrix: Matrix3 {elements: Array, isMatrix3: true, flattenToArrayOffset: function, multiplyVector3: function, multiplyVector3Array: function, …}
+
+parent: Group {id: 18, uuid: "E58C3082-E206-40B7-9145-F304AC353D7E", name: "Scene", type: "Group", parent: Scene, …}
+
+position: Vector3 {x: -96.52779388427734, y: 18.978302001953125, z: -9.993227005004883, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+quaternion: Quaternion {_x: 0, _y: -0.933223307132721, _z: 0, _w: 0.35929685831069946, _onChangeCallback: function, …}
+
+receiveShadow: false
+
+renderOrder: 0
+
+rotation: Euler {_x: 3.141592653589793, _y: -0.7350286444681986, _z: 3.141592653589793, _order: "XYZ", _onChangeCallback: function, …}
+
+scale: Vector3 {x: 4.809821605682373, y: 12.865962982177734, z: 8.335418701171875, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+type: "Group"
+
+up: Vector3 {x: 0, y: 1, z: 0, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+userData: {name: "38"}
+
+uuid: "629A4425-AB1E-4E8A-9900-8575AAA9FD89"
+
+visible: true
+
+Group Prototyp
+29 Group
+
+animations: [] (0)
+
+castShadow: false
+
+children: Array (2)
+0 Mesh {id: 104, uuid: "E421D723-CDB4-420A-9983-01D41A2AAE18", name: "Cube005", type: "Mesh", parent: Group, …}
+1 Mesh {id: 105, uuid: "B2799A8F-08CF-4B13-A881-2EA2ECD05149", name: "Cube005_1", type: "Mesh", parent: Group, …}
+
+Array Prototyp
+
+frustumCulled: true
+
+id: 106
+
+layers: Layers {mask: 1}
+
+matrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixAutoUpdate: true
+
+matrixWorld: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixWorldNeedsUpdate: false
+
+modelViewMatrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+name: "32001"
+
+normalMatrix: Matrix3 {elements: Array, isMatrix3: true, flattenToArrayOffset: function, multiplyVector3: function, multiplyVector3Array: function, …}
+
+parent: Group {id: 18, uuid: "E58C3082-E206-40B7-9145-F304AC353D7E", name: "Scene", type: "Group", parent: Scene, …}
+
+position: Vector3 {x: -41.85533142089844, y: 12.978302001953125, z: -54.81756591796875, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+quaternion: Quaternion {_x: 0, _y: 0.9396927356719971, _z: 0, _w: -0.3420201241970062, _onChangeCallback: function, …}
+
+receiveShadow: false
+
+renderOrder: 0
+
+rotation: Euler {_x: -3.141592653589793, _y: -0.6981317564558389, _z: -3.141592653589793, _order: "XYZ", _onChangeCallback: function, …}
+
+scale: Vector3 {x: 5.0101189613342285, y: 5.0101189613342285, z: 5.0101189613342285, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+type: "Group"
+
+up: Vector3 {x: 0, y: 1, z: 0, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+userData: {name: "32.001"}
+
+uuid: "0F175DBA-9285-4DC6-8A77-153EA2AA21E6"
+
+visible: true
+
+Group Prototyp
+30 Group
+
+animations: [] (0)
+
+castShadow: false
+
+children: Array (2)
+0 Mesh {id: 107, uuid: "5438F54D-7A71-4CC9-90B0-E6F2A5ED6368", name: "Cube010", type: "Mesh", parent: Group, …}
+1 Mesh {id: 108, uuid: "08EF637D-B6A5-4846-994E-744437D8F438", name: "Cube010_1", type: "Mesh", parent: Group, …}
+
+Array Prototyp
+
+frustumCulled: true
+
+id: 109
+
+layers: Layers {mask: 1}
+
+matrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixAutoUpdate: true
+
+matrixWorld: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixWorldNeedsUpdate: false
+
+modelViewMatrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+name: "36b"
+
+normalMatrix: Matrix3 {elements: Array, isMatrix3: true, flattenToArrayOffset: function, multiplyVector3: function, multiplyVector3Array: function, …}
+
+parent: Group {id: 18, uuid: "E58C3082-E206-40B7-9145-F304AC353D7E", name: "Scene", type: "Group", parent: Scene, …}
+
+position: Vector3 {x: -98.03651428222656, y: 10.444477081298828, z: -60.97755432128906, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+quaternion: Quaternion {_x: 0, _y: 0.19672705233097076, _z: 0, _w: 0.9804583191871643, _onChangeCallback: function, …}
+
+receiveShadow: false
+
+renderOrder: 0
+
+rotation: Euler {_x: -0, _y: 0.3960372395039024, _z: -0, _order: "XYZ", _onChangeCallback: function, …}
+
+scale: Vector3 {x: 4.155796051025391, y: 4.155796051025391, z: 4.155796051025391, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+type: "Group"
+
+up: Vector3 {x: 0, y: 1, z: 0, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+userData: {name: "36b"}
+
+uuid: "D033CA23-7272-45FD-B04C-516E47315717"
+
+visible: true
+
+Group Prototyp
+31 Group
+
+animations: [] (0)
+
+castShadow: false
+
+children: Array (2)
+0 Mesh {id: 110, uuid: "1A660742-A6EB-4D87-8929-363245D2C6D8", name: "Cube001_1", type: "Mesh", parent: Group, …}
+1 Mesh {id: 111, uuid: "42BD524F-FEFC-4C92-A33E-B8E1E182E614", name: "Cube001_2", type: "Mesh", parent: Group, …}
+
+Array Prototyp
+
+frustumCulled: true
+
+id: 112
+
+layers: Layers {mask: 1}
+
+matrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixAutoUpdate: true
+
+matrixWorld: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixWorldNeedsUpdate: false
+
+modelViewMatrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+name: "Cube001"
+
+normalMatrix: Matrix3 {elements: Array, isMatrix3: true, flattenToArrayOffset: function, multiplyVector3: function, multiplyVector3Array: function, …}
+
+parent: Group {id: 18, uuid: "E58C3082-E206-40B7-9145-F304AC353D7E", name: "Scene", type: "Group", parent: Scene, …}
+
+position: Vector3 {x: -66.85533142089844, y: 18.978302001953125, z: -36.81756591796875, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+quaternion: Quaternion {_x: 0, _y: -0.933223307132721, _z: 0, _w: 0.35929685831069946, _onChangeCallback: function, …}
+
+receiveShadow: false
+
+renderOrder: 0
+
+rotation: Euler {_x: 3.141592653589793, _y: -0.7350286444681986, _z: 3.141592653589793, _order: "XYZ", _onChangeCallback: function, …}
+
+scale: Vector3 {x: 12.865962028503418, y: 12.865962982177734, z: 8.335418701171875, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+type: "Group"
+
+up: Vector3 {x: 0, y: 1, z: 0, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+userData: {name: "Cube.001"}
+
+uuid: "6CEA79DD-3FDE-4979-8A99-331D4E804537"
+
+visible: true
+
+Group Prototyp
+32 Group
+
+animations: [] (0)
+
+castShadow: false
+
+children: Array (2)
+0 Mesh {id: 113, uuid: "19F9E835-5D6D-49D7-A152-24D63FF66D52", name: "Cube008", type: "Mesh", parent: Group, …}
+1 Mesh {id: 114, uuid: "07236F4D-EF2E-4710-A473-33365FA80BAF", name: "Cube008_1", type: "Mesh", parent: Group, …}
+
+Array Prototyp
+
+frustumCulled: true
+
+id: 115
+
+layers: Layers {mask: 1}
+
+matrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixAutoUpdate: true
+
+matrixWorld: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixWorldNeedsUpdate: false
+
+modelViewMatrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+name: "Cube006"
+
+normalMatrix: Matrix3 {elements: Array, isMatrix3: true, flattenToArrayOffset: function, multiplyVector3: function, multiplyVector3Array: function, …}
+
+parent: Group {id: 18, uuid: "E58C3082-E206-40B7-9145-F304AC353D7E", name: "Scene", type: "Group", parent: Scene, …}
+
+position: Vector3 {x: -135.80392456054688, y: 14.875093460083008, z: -45.17362976074219, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+quaternion: Quaternion {_x: 0, _y: -0.5440821051597595, _z: 0, _w: 0.8390321135520935, _onChangeCallback: function, …}
+
+receiveShadow: false
+
+renderOrder: 0
+
+rotation: Euler {_x: 0, _y: -1.1505898242574821, _z: 0, _order: "XYZ", _onChangeCallback: function, …}
+
+scale: Vector3 {x: 9.483774185180664, y: 12.865962982177734, z: 8.335418701171875, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+type: "Group"
+
+up: Vector3 {x: 0, y: 1, z: 0, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+userData: {name: "Cube.006"}
+
+uuid: "CE6BAE20-BC60-4443-BD16-836E2A4033C9"
+
+visible: true
+
+Group Prototyp
+33 Group
+
+animations: [] (0)
+
+castShadow: false
+
+children: Array (2)
+0 Mesh {id: 116, uuid: "925A5B45-D521-46A1-A41E-D723706CB579", name: "Cube023", type: "Mesh", parent: Group, …}
+1 Mesh {id: 117, uuid: "176CE44F-E6D8-4AFD-8D78-C3801D04C1F6", name: "Cube023_1", type: "Mesh", parent: Group, …}
+
+Array Prototyp
+
+frustumCulled: true
+
+id: 118
+
+layers: Layers {mask: 1}
+
+matrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixAutoUpdate: true
+
+matrixWorld: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixWorldNeedsUpdate: false
+
+modelViewMatrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+name: "Haus5001"
+
+normalMatrix: Matrix3 {elements: Array, isMatrix3: true, flattenToArrayOffset: function, multiplyVector3: function, multiplyVector3Array: function, …}
+
+parent: Group {id: 18, uuid: "E58C3082-E206-40B7-9145-F304AC353D7E", name: "Scene", type: "Group", parent: Scene, …}
+
+position: Vector3 {x: -138.52491760253906, y: 10.721946716308594, z: -8.522528648376465, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+quaternion: Quaternion {_x: 0, _y: -0.40582743287086487, _z: 0, _w: 0.9139498472213745, _onChangeCallback: function, …}
+
+receiveShadow: false
+
+renderOrder: 0
+
+rotation: Euler {_x: 0, _y: -0.8357681237999494, _z: 0, _order: "XYZ", _onChangeCallback: function, …}
+
+scale: Vector3 {x: 12.86596393585205, y: 12.865962982177734, z: 6.414389133453369, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+type: "Group"
+
+up: Vector3 {x: 0, y: 1, z: 0, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+userData: {name: "Haus5.001"}
+
+uuid: "291591CF-D61C-41E7-A649-486C76CD40F8"
+
+visible: true
+
+Group Prototyp
+34 Group
+
+animations: [] (0)
+
+castShadow: false
+
+children: Array (2)
+0 Mesh {id: 119, uuid: "63B4A3A0-D3F6-4F87-8585-919819A0C776", name: "Cube006_1", type: "Mesh", parent: Group, …}
+1 Mesh {id: 120, uuid: "17885B82-E2C9-4DFE-9531-8A676CF3E65C", name: "Cube006_2", type: "Mesh", parent: Group, …}
+
+Array Prototyp
+
+frustumCulled: true
+
+id: 121
+
+layers: Layers {mask: 1}
+
+matrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixAutoUpdate: true
+
+matrixWorld: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixWorldNeedsUpdate: false
+
+modelViewMatrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+name: "Haus5"
+
+normalMatrix: Matrix3 {elements: Array, isMatrix3: true, flattenToArrayOffset: function, multiplyVector3: function, multiplyVector3Array: function, …}
+
+parent: Group {id: 18, uuid: "E58C3082-E206-40B7-9145-F304AC353D7E", name: "Scene", type: "Group", parent: Scene, …}
+
+position: Vector3 {x: -123.56095886230469, y: 14.875083923339844, z: -20.49370002746582, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+quaternion: Quaternion {_x: 0, _y: -0.40582743287086487, _z: 0, _w: 0.9139498472213745, _onChangeCallback: function, …}
+
+receiveShadow: false
+
+renderOrder: 0
+
+rotation: Euler {_x: 0, _y: -0.8357681237999494, _z: 0, _order: "XYZ", _onChangeCallback: function, …}
+
+scale: Vector3 {x: 12.86596393585205, y: 12.865962982177734, z: 6.414389133453369, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+type: "Group"
+
+up: Vector3 {x: 0, y: 1, z: 0, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+userData: {name: "Haus5"}
+
+uuid: "F44D4BCB-14B6-4235-9985-4B36A47AA0F7"
+
+visible: true
+
+Group Prototyp
+35 Mesh {id: 122, uuid: "356637CA-88DC-4473-A944-548DAA55E894", name: "map_3osm_water", type: "Mesh", parent: Group, …}
+36 Mesh {id: 123, uuid: "D9431939-BE6D-4181-A6C7-25B0B7551D8E", name: "Stamm", type: "Mesh", parent: Group, …}
+37 Mesh {id: 139, uuid: "4983238C-F74A-41D3-9FD4-FA2898D37ED0", name: "Cylinder", type: "Mesh", parent: Group, …}
+38 Mesh {id: 140, uuid: "97FEC3E4-1765-4FD3-901F-11231B3FAA0D", name: "Cylinder001", type: "Mesh", parent: Group, …}
+39 Mesh {id: 141, uuid: "3665C4CB-C89F-4026-A650-D2AF13A33425", name: "Cylinder002", type: "Mesh", parent: Group, …}
+40 Mesh {id: 142, uuid: "B4759D4A-6CE0-49D0-80E8-60215DC05409", name: "Cylinder003", type: "Mesh", parent: Group, …}
+41 Mesh {id: 143, uuid: "5FDE16B0-981D-4DD8-B9B1-BEF7C3E58163", name: "Cylinder004", type: "Mesh", parent: Group, …}
+42 Mesh {id: 144, uuid: "B0718F51-4372-4E4E-879E-476FF4039AFF", name: "Cylinder005", type: "Mesh", parent: Group, …}
+43 Mesh {id: 145, uuid: "E5C1E316-1A22-4317-A7E0-9FAED2750400", name: "Cylinder006", type: "Mesh", parent: Group, …}
+44 Mesh {id: 146, uuid: "2CCACBFF-6429-447E-A1A6-261F85964C32", name: "Cylinder008", type: "Mesh", parent: Group, …}
+45 Mesh {id: 147, uuid: "438FFD01-99D7-494A-816B-34B336B4745C", name: "Cylinder007", type: "Mesh", parent: Group, …}
+46 Mesh {id: 148, uuid: "B95E0F39-6DDF-4219-B76C-B21A3F1C6DC4", name: "Cylinder009", type: "Mesh", parent: Group, …}
+47 Mesh {id: 149, uuid: "CA2EC919-EBC8-4142-869D-0BC56989F666", name: "Cylinder010", type: "Mesh", parent: Group, …}
+48 Mesh {id: 150, uuid: "E06C0B63-29DD-41ED-BF93-2810F35FE7AB", name: "Cylinder012", type: "Mesh", parent: Group, …}
+49 Mesh {id: 151, uuid: "9869CC0B-E479-46A3-BC28-D0EC5C68FF54", name: "Cylinder011", type: "Mesh", parent: Group, …}
+50 Mesh {id: 152, uuid: "841826B8-871E-4447-8020-2B51573BFAC5", name: "Cylinder013", type: "Mesh", parent: Group, …}
+51 Mesh
+
+_listeners: {mouseover: Array, mouseout: Array, mousedown: Array}
+
+animations: [] (0)
+
+castShadow: true
+
+children: Array (0)
+Keine Eigenschaften
+
+Array Prototyp
+
+frustumCulled: true
+
+geometry: BufferGeometry {id: 86, uuid: "E37C1FF7-75F6-48E4-AFEC-75B4805DE812", name: "", type: "BufferGeometry", index: BufferAttribute, …}
+
+id: 153
+
+layers: Layers {mask: 1}
+
+material: MeshStandardMaterial {id: 16, uuid: "1E8039CC-4FB0-4FE1-AC36-F3245D17D509", name: "Material.001", type: "MeshStandardMaterial", fog: true, …}
+
+matrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixAutoUpdate: true
+
+matrixWorld: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixWorldNeedsUpdate: false
+
+modelViewMatrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+name: "Cylinder014"
+
+normalMatrix: Matrix3 {elements: Array, isMatrix3: true, flattenToArrayOffset: function, multiplyVector3: function, multiplyVector3Array: function, …}
+
+parent: Group {id: 18, uuid: "E58C3082-E206-40B7-9145-F304AC353D7E", name: "Scene", type: "Group", parent: Scene, …}
+
+position: Vector3 {x: -103.28326416015625, y: 10.575291633605957, z: -20.494049072265625, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+quaternion: Quaternion {_x: 0, _y: 0, _z: 0, _w: 1, _onChangeCallback: function, …}
+
+receiveShadow: false
+
+renderOrder: 0
+
+rotation: Euler {_x: -0, _y: 0, _z: -0, _order: "XYZ", _onChangeCallback: function, …}
+
+scale: Vector3 {x: 0.5436615943908691, y: 0.47691673040390015, z: 0.5436615943908691, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+type: "Mesh"
+
+up: Vector3 {x: 0, y: 1, z: 0, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+userData: {name: "Cylinder.014"}
+
+uuid: "6113F498-DF3C-4D97-8E6D-922CB0677B3A"
+
+visible: true
+
+Mesh Prototyp
+52 Mesh {id: 125, uuid: "C65B028D-68A4-4B87-BB5C-432D026D3985", name: "Stamm002", type: "Mesh", parent: Group, …}
+53 Mesh {id: 126, uuid: "3F41DAD2-F59D-41D0-8F00-F15DACFA2935", name: "Stamm003", type: "Mesh", parent: Group, …}
+54 Mesh {id: 127, uuid: "55AFFB0D-F4B8-4AAF-B532-9ED538893EA1", name: "Stamm004", type: "Mesh", parent: Group, …}
+55 Mesh {id: 128, uuid: "2EACAD10-A751-4B13-B7F5-580C3ABED6CD", name: "Stamm005", type: "Mesh", parent: Group, …}
+56 Mesh {id: 129, uuid: "386046FC-8592-4A08-ADA2-DCE95175E2A3", name: "Stamm006", type: "Mesh", parent: Group, …}
+57 Mesh {id: 130, uuid: "8CE39FE0-EE1A-41CE-81FD-07456A474A24", name: "Stamm007", type: "Mesh", parent: Group, …}
+58 Mesh {id: 131, uuid: "8335E43D-30CD-4545-8743-4A010A18F121", name: "Stamm009", type: "Mesh", parent: Group, …}
+59 Mesh {id: 132, uuid: "18DFCBF2-AF5B-4AD8-955F-3DF281F34032", name: "Stamm008", type: "Mesh", parent: Group, …}
+60 Mesh {id: 133, uuid: "91CA78ED-97E0-430E-A49D-79E848E2AAD3", name: "Stamm010", type: "Mesh", parent: Group, …}
+61 Mesh {id: 134, uuid: "7AAD338F-1FA4-4FB5-B870-494D0B5F0319", name: "Stamm011", type: "Mesh", parent: Group, …}
+62 Mesh {id: 135, uuid: "EF487E78-91B8-4F47-8AB5-7228F43D7237", name: "Stamm013", type: "Mesh", parent: Group, …}
+63 Mesh {id: 136, uuid: "4A231137-600C-49EC-9800-DFF9A38BCB3D", name: "Stamm012", type: "Mesh", parent: Group, …}
+64 Mesh {id: 137, uuid: "5F618010-3745-4CDC-8661-5EFB1DC78ABB", name: "Stamm014", type: "Mesh", parent: Group, …}
+65 Mesh {id: 138, uuid: "177CB7A2-03B5-4D55-A9D7-64A578292E70", name: "Stamm015", type: "Mesh", parent: Group, …}
+
+Array Prototyp
+
+frustumCulled: true
+
+id: 18
+
+layers: Layers {mask: 1}
+
+matrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixAutoUpdate: true
+
+matrixWorld: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+matrixWorldNeedsUpdate: false
+
+modelViewMatrix: Matrix4 {elements: Array, isMatrix4: true, extractPosition: function, flattenToArrayOffset: function, getPosition: function, …}
+
+name: "Scene"
+
+normalMatrix: Matrix3 {elements: Array, isMatrix3: true, flattenToArrayOffset: function, multiplyVector3: function, multiplyVector3Array: function, …}
+
+parent: Scene {id: 5, uuid: "4A272022-18A3-462D-9B38-F8F9ABAE6A39", name: "", type: "Scene", parent: null, …}
+
+position: Vector3 {x: 0, y: 0, z: 0, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+quaternion: Quaternion {_x: 0, _y: -0.7138636049350368, _z: 0, _w: 0.7002847660410397, _onChangeCallback: function, …}
+
+receiveShadow: true
+
+renderOrder: 0
+
+rotation: Euler {_x: 0, _y: -1.59, _z: 0, _order: "XYZ", _onChangeCallback: function, …}
+
+scale: Vector3 {x: 0.01, y: 0.01, z: 0.01, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+type: "Group"
+
+up: Vector3 {x: 0, y: 1, z: 0, isVector3: true, setEulerFromRotationMatrix: function, …}
+
+userData: {}
+
+uuid: "E58C3082-E206-40B7-9145-F304AC353D7E"
+
+visible: true
+
+Group Prototyp

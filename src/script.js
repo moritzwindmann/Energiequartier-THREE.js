@@ -3,7 +3,7 @@ import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js'
 import * as dat from 'dat.gui'
-import { TextureDataType, TextureLoader } from 'three'
+// import { TextureDataType, TextureLoader } from 'three'
 import { InteractionManager } from 'three.interactive'
 
 /**
@@ -19,18 +19,18 @@ const cubeTextureLoader = new THREE.CubeTextureLoader()
 
 const textureLoader = new THREE.TextureLoader()
 
-const bricksColorTexture = textureLoader.load('/textures/bricks/color.jpg')
-const bricksAmbientOcclusionTexture = textureLoader.load('/textures/bricks/ambientOcclusion.jpg')
-const bricksNormalTexture = textureLoader.load('/textures/bricks/normal.jpg')
-const bricksRoughnessTexture = textureLoader.load('/textures/bricks/roughness.jpg')
+// const bricksColorTexture = textureLoader.load('/textures/bricks/color.jpg')
+// const bricksAmbientOcclusionTexture = textureLoader.load('/textures/bricks/ambientOcclusion.jpg')
+// const bricksNormalTexture = textureLoader.load('/textures/bricks/normal.jpg')
+// const bricksRoughnessTexture = textureLoader.load('/textures/bricks/roughness.jpg')
 
-const matcapTexture = textureLoader.load('/textures/matcaps/597C3F_254319_6C9668_7C9B53-256px.png')
-const gardientTexture = textureLoader.load('/textures/gradients/5.jpg')
+// const matcapTexture = textureLoader.load('/textures/matcaps/597C3F_254319_6C9668_7C9B53-256px.png')
+// const gardientTexture = textureLoader.load('/textures/gradients/5.jpg')
 
 const roofTexture = textureLoader.load('/textures/matcaps/B3AA93_F4EFD7_E1DDC2_DCD3BB-256px.png') 
 const wallTexture = textureLoader.load('/textures/matcaps/B5BBB5_3B4026_6E745D_5C6147-256px.png') 
 const treeTexture = textureLoader.load('/textures/matcaps/37C337_279F27_186018_248824-256px.png')
-const waterTexture = textureLoader.load('/textures/matcaps/597C3F_254319_6C9668_7C9B53-256px.png')
+// const waterTexture = textureLoader.load('/textures/matcaps/597C3F_254319_6C9668_7C9B53-256px.png')
 
 roofTexture.minFilter = THREE.NearestFilter
 roofTexture.magFilter = THREE.NearestFilter
@@ -48,7 +48,7 @@ const scene = new THREE.Scene()
 /**
  * Sizes
  */
- const sizes = {
+const sizes = {
     width: window.innerWidth,
     height: window.innerHeight
 }
@@ -168,7 +168,7 @@ folder.addColor( params, 'roofColor' ).onChange( function() { roof.color.set( pa
 folder.addColor( params, 'waterColor' ).onChange( function() { water.color.set( params.waterColor ); } );
 folder.open();
 
-
+let prevClickName;
 
 
 // const testCube = new THREE.Mesh(
@@ -284,12 +284,48 @@ const updateAllMaterials = () =>
             });
 
             child.addEventListener('mousedown', (event) => {
-              console.log(event);
-              console.log(event.target.name);
-              console.log(event.target.material);
+
+              // log click mash attributes
+              console.log('Name: ' + event.target.name + ' ID: '+event.target.material.uuid + ' Type: ' + event.target.type);
+
+              // material for the selected building
+              const newMaterial = new THREE.MeshStandardMaterial({color: 0xff0000});
+
+              // check if object is a building
+              if (event.target.name.includes('Cube')==true){
+
+                // deselect previous building
+                if (typeof prevClickName !== 'undefined') {
+                  console.log('Previous: '+prevClickName);
+                  model.getObjectByName(prevClickName).material = wall;
+                  model.getObjectByName(prevClickName + '_1').material = wall;
+                }
+
+                // get name of selected mash
+                let clickName = event.target.name;
+                console.log('Current ' + clickName);
+
+                // remove suffix 
+                if (clickName.includes('_1') ==true) {
+                  clickName = clickName.replace('_1','');
+                }
+
+                // save current name for the next selection
+                prevClickName = clickName;
+
+                // Change materials of the selected building
+                model.getObjectByName(clickName).material = newMaterial;
+                model.getObjectByName(clickName + '_1').material = newMaterial;
+
+                // console.log(model);
+                
+              }
+
+              
+
               event.stopPropagation();
-            //   child.position.y = 1
-            // child.scale.y = 1
+              //  child.position.y = 1
+              //  child.scale.y = 1
 
               // if (child.material) {
               //   child.material.emissive.setHex(0x0000ff);
@@ -309,14 +345,14 @@ const updateAllMaterials = () =>
  * Map
  */
 
-const enviromentMap = cubeTextureLoader.load([
-    '/textures/environmentMaps/1/px.jpg',
-    '/textures/environmentMaps/1/nx.jpg',
-    '/textures/environmentMaps/1/py.jpg',
-    '/textures/environmentMaps/1/ny.jpg',
-    '/textures/environmentMaps/1/pz.jpg',
-    '/textures/environmentMaps/1/nz.jpg'
-])
+// const enviromentMap = cubeTextureLoader.load([
+//     '/textures/environmentMaps/1/px.jpg',
+//     '/textures/environmentMaps/1/nx.jpg',
+//     '/textures/environmentMaps/1/py.jpg',
+//     '/textures/environmentMaps/1/ny.jpg',
+//     '/textures/environmentMaps/1/pz.jpg',
+//     '/textures/environmentMaps/1/nz.jpg'
+// ])
 
 // scene.background = enviromentMap
 // scene.environment = enviromentMap
@@ -327,6 +363,8 @@ gui.add(debugObject, 'envMapIntensity').min(0).max(10).step(0.001).name('envMap'
 /**
  * Models
  */
+
+var model, gltf;
 
 gltfLoader.load(
     // 'models/FlightHelmet/glTF/FlightHelmet.gltf',
@@ -343,6 +381,8 @@ gltfLoader.load(
 
         gui.add(gltf.scene.rotation, 'y').min(- Math.PI).max(Math.PI).step(0.01).name('rotation')
         updateAllMaterials()
+
+        model = gltf.scene;
     }   
 )
 

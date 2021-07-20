@@ -14,3 +14,9 @@ npm run dev
 # Build for production in the dist/ directory
 npm run build
 ```
+
+
+## Fragen
+
+- Wofür werden jeweils die `.bin` und `.gltf` dateien gebraucht?
+- Können wir die blender datei in git hochladen..?
