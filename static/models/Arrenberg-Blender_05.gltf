@@ -1194,7 +1194,7 @@
     ],
     "materials" : [
         {
-            "doubleSided" : true,
+            "doubleSided" : false,
             "name" : "terrain",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
