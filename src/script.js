@@ -287,6 +287,8 @@ const updateAllMaterials = () =>
 
               // log click mash attributes
               console.log('Name: ' + event.target.name + ' ID: '+event.target.material.uuid + ' Type: ' + event.target.type);
+              // console.log(child.parent);
+              // console.log(child.parent.parent);
 
               // material for the selected building
               const newMaterial = new THREE.MeshStandardMaterial({color: 0xff0000});
@@ -370,7 +372,7 @@ gltfLoader.load(
     // 'models/FlightHelmet/glTF/FlightHelmet.gltf',
     // 'models/arrenberg-scene_comp.gltf', 
     // '/models/BlenderOSM/Blender-OSM_02.gltf', 
-    '/models/Arrenberg-Blender_05.gltf', 
+    '/models/Arrenberg-Blender_06.gltf', 
     (gltf) => {
         gltf.scene.scale.set(0.01,0.01,0.01)
         gltf.scene.position.set(0,0,0)
