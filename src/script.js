@@ -298,7 +298,7 @@ const updateAllMaterials = () =>
                 if (typeof prevClickName !== 'undefined') {
                   console.log('Previous: '+prevClickName);
                   model.getObjectByName(prevClickName).material = wall;
-                  model.getObjectByName(prevClickName + '_1').material = wall;
+                  model.getObjectByName(prevClickName + '_1').material = roof;
                 }
 
                 // get name of selected mash
