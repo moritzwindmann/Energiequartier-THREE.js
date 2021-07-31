@@ -19,4 +19,6 @@ npm run build
 ## Fragen
 
 - Wofür werden jeweils die `.bin` und `.gltf` dateien gebraucht?
+* gltf und bin werden beide benötigt da hier die scene gespeichert ist. GLZF vergibt die ganzen materialien und die Polygone sind in der Bin. LAngfristig wird es aber eine Datei die mit Draco komprimiert wird.
 - Können wir die blender datei in git hochladen..?
+* versuchen wir einfach liegt unter resources
