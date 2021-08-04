@@ -4,6 +4,7 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js'
 import * as dat from 'dat.gui'
 import { InteractionManager } from 'three.interactive'
+import gsap from 'gsap/index.js'
 
 /**
  * Loaders
@@ -13,6 +14,28 @@ const gltfLoader = new GLTFLoader()
 
 // Debug
 const gui = new dat.GUI()
+
+
+
+// animation
+
+
+const explore = document.getElementById("explore")
+var explorer = false; 
+
+explore.addEventListener("click", function() {
+    if(!gsap.isTweening(camera.position)){
+    gsap.to(camera.position,{
+      duration:2,
+      z: -2.42,
+      x: 2.24,
+      y: 0.4,
+      ease: "power3.in"
+    })
+    explore.innerHTML = "go back ";
+    console.log('test')
+  }
+})
 
 
 /**
@@ -91,6 +114,11 @@ gui.add(camera.rotation, 'z').min(- Math.PI).max(Math.PI).step(0.01).name('camer
 scene.add(camera)
 
 
+
+
+// child.addEventListener('mousedown', (event) => {
+
+
 var cameraParams = {
   orbitControls: false,
   animateCamera: false,
@@ -138,12 +166,7 @@ function animateCamera() {
     camera.position.y = camera.position.y - 0.4
 
 
-    // cameraParams.animateCamera = false
   }
-
-  // camera.position.x = camera.position.x + 0.1
-  // camera.position.z = camera.position.z + 0.1
-
 
 }
 
