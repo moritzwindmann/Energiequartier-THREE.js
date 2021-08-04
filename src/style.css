@@ -35,10 +35,16 @@ body
 }
 
 h1{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+h2{
+    margin-bottom: 30px;
 }
 
-
+.primary{
+    color: linear-gradient(94.33deg, #4FAAFF 2.65%, #1478D3 99.95%);
+    color: #4FAAFF 
+}
 button{
     cursor: pointer;
     padding: 20px;

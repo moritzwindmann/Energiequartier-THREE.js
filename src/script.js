@@ -19,9 +19,8 @@ const gui = new dat.GUI()
 
 // animation
 
-
 const explore = document.getElementById("explore")
-var explorer = false; 
+// var explorer = false; 
 
 explore.addEventListener("click", function() {
     if(!gsap.isTweening(camera.position)){
@@ -30,12 +29,31 @@ explore.addEventListener("click", function() {
       z: -2.42,
       x: 2.24,
       y: 0.4,
-      ease: "power3.in"
+      ease: "power4.easeInOut"
     })
-    explore.innerHTML = "go back ";
-    console.log('test')
+    // explorer = true
+    // explore.innerHTML = "go back ";
+    // console.log('test')
   }
 })
+
+
+const topView = document.getElementById("topview")
+// var explorer = false; 
+
+topView.addEventListener("click", function() {
+    if(!gsap.isTweening(camera.position)){
+    gsap.to(camera.position,{
+      duration:2,
+      z: -4.91,
+      x: 4.52,
+      y: 2.68,
+      ease: "power4.easeInOut"
+    })
+    // explore.innerHTML = "go back ";
+  }
+})
+
 
 
 /**
@@ -103,14 +121,6 @@ camera.position.set(3.54, 1.3, -3.39)
 camera.lookAt(0.8, 0.14, -0.15);
 
 
-gui.add(camera.position, 'x').min(- 5).max(5).step(0.01).name('cameraPositionX')
-gui.add(camera.position, 'y').min(- 5).max(5).step(0.01).name('cameraPositionY')
-gui.add(camera.position, 'z').min(- 5).max(5).step(0.01).name('cameraPositionZ')
-
-gui.add(camera.rotation, 'x').min(- Math.PI).max(Math.PI).step(0.01).name('cameraRotationX')
-gui.add(camera.rotation, 'y').min(- Math.PI).max(Math.PI).step(0.01).name('cameraRotationY')
-gui.add(camera.rotation, 'z').min(- Math.PI).max(Math.PI).step(0.01).name('cameraRotationz')
-
 scene.add(camera)
 
 
@@ -133,8 +143,17 @@ const folderCamera = gui.addFolder( 'Camera' );
     animateCamera();
     console.log(cameraParams.animateCamera)
   } );
+
+  folderCamera.add(camera.position, 'x').min(- 5).max(5).step(0.01).name('cameraPositionX')
+  folderCamera.add(camera.position, 'y').min(- 5).max(5).step(0.01).name('cameraPositionY')
+  folderCamera.add(camera.position, 'z').min(- 5).max(5).step(0.01).name('cameraPositionZ')
+
+  folderCamera.add(camera.rotation, 'x').min(- Math.PI).max(Math.PI).step(0.01).name('cameraRotationX')
+  folderCamera.add(camera.rotation, 'y').min(- Math.PI).max(Math.PI).step(0.01).name('cameraRotationY')
+  folderCamera.add(camera.rotation, 'z').min(- Math.PI).max(Math.PI).step(0.01).name('cameraRotationz')
+
 				
-  folderCamera.open();
+  gui.close();
 
 
 
@@ -256,7 +275,7 @@ var folder = gui.addFolder( 'Materials' );
 
   folder.addColor( params, 'roofColor' ).onChange( function() { roof.color.set( params.roofColor ); } );
   folder.addColor( params, 'waterColor' ).onChange( function() { water.color.set( params.waterColor ); } );
-  folder.open();
+  // folder.open();
 
 
 
@@ -397,7 +416,9 @@ gltfLoader.load(
         gltf.scene.castShadow = true;
         scene.add(gltf.scene)
 
-        gui.add(gltf.scene.rotation, 'y').min(- Math.PI).max(Math.PI).step(0.01).name('rotation')
+        const sceneSettings = gui.addFolder( 'Szene' );
+
+        sceneSettings.add(gltf.scene.rotation, 'y').min(- Math.PI).max(Math.PI).step(0.01).name('rotation')
         updateAllMaterials()
 
         model = gltf.scene;
