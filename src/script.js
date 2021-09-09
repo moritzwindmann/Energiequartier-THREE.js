@@ -417,7 +417,7 @@ const updateAllMaterials = () => {
 
 var model, gltf;
 
-gltfLoader.load("/models/02_Energiequartier.gltf", (gltf) => {
+gltfLoader.load("/models/03_Energiequartier.gltf", (gltf) => {
   gltf.scene.scale.set(0.01, 0.01, 0.01);
   gltf.scene.position.set(0, 0, 0);
   gltf.scene.rotation.y = -1.59;
