@@ -1,0 +1,1218 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.6.16",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "extras" : {
+                "blosm" : {
+                    "defaultLevels" : [
+                        {
+                            "levels" : 4,
+                            "weight" : 10
+                        },
+                        {
+                            "levels" : 5,
+                            "weight" : 40
+                        },
+                        {
+                            "levels" : 6,
+                            "weight" : 10
+                        }
+                    ],
+                    "minLon" : 7.119100093841553,
+                    "minLat" : 51.24235916137695,
+                    "maxLon" : 7.141369819641113,
+                    "maxLat" : 51.253700256347656,
+                    "dataType" : 2,
+                    "terrainObject" : "Terrain",
+                    "railways" : 1,
+                    "terrainReductionRatio" : 0,
+                    "mode" : 1,
+                    "singleObject" : 1,
+                    "overlayType" : 1,
+                    "ignoreGeoreferencing" : 0,
+                    "buildings" : 1,
+                    "setOverlayMaterial" : 1
+                },
+                "lat" : 51.248029708862305,
+                "lon" : 7.130234956741333,
+                "glTF2ExportSettings" : {
+                    "export_animations" : 0,
+                    "export_apply" : 1,
+                    "export_draco_mesh_compression_enable" : 0,
+                    "export_extras" : 1,
+                    "export_format" : "GLTF_SEPARATE",
+                    "export_morph" : 0,
+                    "export_skins" : 0,
+                    "export_tangents" : 1,
+                    "export_texcoords" : 0,
+                    "export_texture_dir" : "",
+                    "use_mesh_edges" : 0,
+                    "use_mesh_vertices" : 0,
+                    "use_selection" : 0,
+                    "use_visible" : 1
+                }
+            },
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Verlauf_Schwebebahn",
+            "translation" : [
+                -99.93659973144531,
+                29.464149475097656,
+                -137.08840942382812
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "Schebebahn Pfeiler",
+            "rotation" : [
+                -0.46387600898742676,
+                0.5349610447883606,
+                -0.5324468612670898,
+                -0.4638276696205139
+            ],
+            "scale" : [
+                0.5185282230377197,
+                0.5420121550559998,
+                0.6865221858024597
+            ],
+            "translation" : [
+                -777.6492919921875,
+                6.2924981117248535,
+                -99.27659606933594
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "Schebebahn Pfeiler.001",
+            "rotation" : [
+                -0.5298234224319458,
+                0.4697357416152954,
+                -0.46724840998649597,
+                -0.5294472575187683
+            ],
+            "scale" : [
+                0.5185282230377197,
+                0.5420121550559998,
+                0.6865221858024597
+            ],
+            "translation" : [
+                -472.9053955078125,
+                5.410159587860107,
+                -1.140420913696289
+            ]
+        },
+        {
+            "mesh" : 3,
+            "name" : "Schebebahn Pfeiler.002",
+            "rotation" : [
+                -0.37495335936546326,
+                0.6006451845169067,
+                -0.598153293132782,
+                -0.3752974569797516
+            ],
+            "scale" : [
+                0.5185282230377197,
+                0.5420121550559998,
+                0.6865221858024597
+            ],
+            "translation" : [
+                -587.4656982421875,
+                5.698067665100098,
+                -10.844408988952637
+            ]
+        },
+        {
+            "mesh" : 4,
+            "name" : "Schebebahn Pfeiler.003",
+            "rotation" : [
+                -0.6186165809631348,
+                0.3436071276664734,
+                -0.3410974442958832,
+                -0.6187893152236938
+            ],
+            "scale" : [
+                0.5185282230377197,
+                0.5420121550559998,
+                0.6865221858024597
+            ],
+            "translation" : [
+                -364.8736572265625,
+                5.410159587860107,
+                -42.045291900634766
+            ]
+        },
+        {
+            "mesh" : 5,
+            "name" : "Schebebahn Pfeiler.004",
+            "rotation" : [
+                -0.3306328356266022,
+                0.626136064529419,
+                -0.6236758232116699,
+                -0.3311556279659271
+            ],
+            "scale" : [
+                0.5185282230377197,
+                0.5420121550559998,
+                0.6865221858024597
+            ],
+            "translation" : [
+                -681.225830078125,
+                6.064008712768555,
+                -66.55207824707031
+            ]
+        },
+        {
+            "mesh" : 6,
+            "name" : "Schebebahn Pfeiler.005",
+            "rotation" : [
+                -0.6424126029014587,
+                0.2967463433742523,
+                -0.29423075914382935,
+                -0.6423985958099365
+            ],
+            "scale" : [
+                0.5185282230377197,
+                0.5420121550559998,
+                0.7558300495147705
+            ],
+            "translation" : [
+                -279.7979736328125,
+                4.005300521850586,
+                -106.67999267578125
+            ]
+        },
+        {
+            "mesh" : 7,
+            "name" : "Schebebahn Pfeiler.006",
+            "rotation" : [
+                -0.6086991429328918,
+                0.3613196611404419,
+                -0.358818918466568,
+                -0.6084262132644653
+            ],
+            "scale" : [
+                0.5185282230377197,
+                0.5420121550559998,
+                0.6865221858024597
+            ],
+            "translation" : [
+                -189.2008819580078,
+                5.353744029998779,
+                -183.89454650878906
+            ]
+        },
+        {
+            "mesh" : 8,
+            "name" : "Schebebahn Pfeiler.007",
+            "rotation" : [
+                -0.44749876856803894,
+                0.5490714907646179,
+                -0.5468185544013977,
+                -0.4463796615600586
+            ],
+            "scale" : [
+                0.5185282230377197,
+                0.5420121550559998,
+                0.6865221858024597
+            ],
+            "translation" : [
+                -86.31438446044922,
+                8.082716941833496,
+                -183.89454650878906
+            ]
+        },
+        {
+            "mesh" : 9,
+            "name" : "Schebebahn Pfeiler.008",
+            "rotation" : [
+                -0.5735231637954712,
+                0.41569915413856506,
+                -0.4138091802597046,
+                -0.5718629956245422
+            ],
+            "scale" : [
+                0.5185282230377197,
+                0.5420121550559998,
+                0.6865221858024597
+            ],
+            "translation" : [
+                13.50515079498291,
+                7.983002185821533,
+                -177.80979919433594
+            ]
+        },
+        {
+            "mesh" : 10,
+            "name" : "Schebebahn Pfeiler.009",
+            "rotation" : [
+                -0.691245436668396,
+                0.15188464522361755,
+                -0.14948797225952148,
+                -0.6904811263084412
+            ],
+            "scale" : [
+                0.5185282230377197,
+                0.5420121550559998,
+                0.6865221858024597
+            ],
+            "translation" : [
+                127.6163101196289,
+                6.852114677429199,
+                -376.3941345214844
+            ]
+        },
+        {
+            "mesh" : 11,
+            "name" : "Schebebahn Pfeiler.010",
+            "rotation" : [
+                -0.691245436668396,
+                0.15188464522361755,
+                -0.14948797225952148,
+                -0.6904811263084412
+            ],
+            "scale" : [
+                0.5185282230377197,
+                0.5420121550559998,
+                0.6865221858024597
+            ],
+            "translation" : [
+                81.54823303222656,
+                7.983002185821533,
+                -260.863037109375
+            ]
+        },
+        {
+            "mesh" : 12,
+            "name" : "Schebebahn Pfeiler.011",
+            "rotation" : [
+                -0.6071227788925171,
+                0.3647505044937134,
+                -0.3627241849899292,
+                -0.6056320667266846
+            ],
+            "scale" : [
+                0.5185282230377197,
+                0.5420121550559998,
+                0.6865221858024597
+            ],
+            "translation" : [
+                205.1955108642578,
+                6.852114677429199,
+                -444.63189697265625
+            ]
+        },
+        {
+            "mesh" : 13,
+            "name" : "Schebebahn Pfeiler.012",
+            "rotation" : [
+                -0.6071227788925171,
+                0.3647505044937134,
+                -0.3627241849899292,
+                -0.6056320667266846
+            ],
+            "scale" : [
+                0.5185282230377197,
+                0.5420121550559998,
+                0.6865221858024597
+            ],
+            "translation" : [
+                297.0590515136719,
+                6.852114677429199,
+                -491.4120178222656
+            ]
+        },
+        {
+            "mesh" : 14,
+            "name" : "Schebebahn Pfeiler.013",
+            "rotation" : [
+                -0.6071227788925171,
+                0.3647505044937134,
+                -0.3627241849899292,
+                -0.6056320667266846
+            ],
+            "scale" : [
+                0.5185282230377197,
+                0.5420121550559998,
+                0.6865221858024597
+            ],
+            "translation" : [
+                397.5747985839844,
+                6.852114677429199,
+                -541.2927856445312
+            ]
+        },
+        {
+            "mesh" : 15,
+            "name" : "Schebebahn Pfeiler.014",
+            "rotation" : [
+                -0.6071227788925171,
+                0.3647505044937134,
+                -0.3627241849899292,
+                -0.6056320667266846
+            ],
+            "scale" : [
+                0.5185282230377197,
+                0.5420121550559998,
+                0.6865221858024597
+            ],
+            "translation" : [
+                497.0462341308594,
+                6.8774309158325195,
+                -590.6193237304688
+            ]
+        },
+        {
+            "mesh" : 16,
+            "name" : "Schebebahn Pfeiler.015",
+            "rotation" : [
+                -0.6071227788925171,
+                0.3647505044937134,
+                -0.3627241849899292,
+                -0.6056320667266846
+            ],
+            "scale" : [
+                0.5185282230377197,
+                0.5420121550559998,
+                0.6865221858024597
+            ],
+            "translation" : [
+                596.3507080078125,
+                6.914999485015869,
+                -643.6091918945312
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "wall",
+            "pbrMetallicRoughness" : {
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.20000000298023224
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "BezierCurve.002",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Schebebahn Pfeiler",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5
+                    },
+                    "indices" : 6,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Schebebahn Pfeiler.005",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 7,
+                        "NORMAL" : 8
+                    },
+                    "indices" : 6
+                }
+            ]
+        },
+        {
+            "name" : "Schebebahn Pfeiler.006",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 9,
+                        "NORMAL" : 10
+                    },
+                    "indices" : 6
+                }
+            ]
+        },
+        {
+            "name" : "Schebebahn Pfeiler.007",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 11,
+                        "NORMAL" : 12
+                    },
+                    "indices" : 6
+                }
+            ]
+        },
+        {
+            "name" : "Schebebahn Pfeiler.004",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 13,
+                        "NORMAL" : 14
+                    },
+                    "indices" : 6
+                }
+            ]
+        },
+        {
+            "name" : "Schebebahn Pfeiler.008",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 15,
+                        "NORMAL" : 16
+                    },
+                    "indices" : 6
+                }
+            ]
+        },
+        {
+            "name" : "Schebebahn Pfeiler.009",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 17,
+                        "NORMAL" : 18
+                    },
+                    "indices" : 6
+                }
+            ]
+        },
+        {
+            "name" : "Schebebahn Pfeiler.010",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 19,
+                        "NORMAL" : 20
+                    },
+                    "indices" : 6
+                }
+            ]
+        },
+        {
+            "name" : "Schebebahn Pfeiler.011",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 21,
+                        "NORMAL" : 22
+                    },
+                    "indices" : 6
+                }
+            ]
+        },
+        {
+            "name" : "Schebebahn Pfeiler.012",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 23,
+                        "NORMAL" : 24
+                    },
+                    "indices" : 6
+                }
+            ]
+        },
+        {
+            "name" : "Schebebahn Pfeiler.013",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 25,
+                        "NORMAL" : 26
+                    },
+                    "indices" : 6
+                }
+            ]
+        },
+        {
+            "name" : "Schebebahn Pfeiler.014",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 27,
+                        "NORMAL" : 28
+                    },
+                    "indices" : 6
+                }
+            ]
+        },
+        {
+            "name" : "Schebebahn Pfeiler.015",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 29,
+                        "NORMAL" : 30
+                    },
+                    "indices" : 6
+                }
+            ]
+        },
+        {
+            "name" : "Schebebahn Pfeiler.016",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 31,
+                        "NORMAL" : 32
+                    },
+                    "indices" : 6
+                }
+            ]
+        },
+        {
+            "name" : "Schebebahn Pfeiler.017",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 33,
+                        "NORMAL" : 34
+                    },
+                    "indices" : 6
+                }
+            ]
+        },
+        {
+            "name" : "Schebebahn Pfeiler.018",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 35,
+                        "NORMAL" : 36
+                    },
+                    "indices" : 6
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 392,
+            "max" : [
+                731.70703125,
+                0.9278302788734436,
+                143.80526733398438
+            ],
+            "min" : [
+                -687.6273803710938,
+                -0.9278302788734436,
+                -521.9930419921875
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 392,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 392,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 1728,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 170,
+            "max" : [
+                35.25745391845703,
+                5,
+                0
+            ],
+            "min" : [
+                -35.25745391845703,
+                0,
+                -40.11048889160156
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 170,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5123,
+            "count" : 288,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 170,
+            "max" : [
+                35.25745391845703,
+                5,
+                0
+            ],
+            "min" : [
+                -35.25745391845703,
+                0,
+                -40.11048889160156
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 170,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 170,
+            "max" : [
+                35.25745391845703,
+                5,
+                0
+            ],
+            "min" : [
+                -35.25745391845703,
+                0,
+                -40.11048889160156
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 170,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5126,
+            "count" : 170,
+            "max" : [
+                35.25745391845703,
+                5,
+                0
+            ],
+            "min" : [
+                -35.25745391845703,
+                0,
+                -40.11048889160156
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 12,
+            "componentType" : 5126,
+            "count" : 170,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 13,
+            "componentType" : 5126,
+            "count" : 170,
+            "max" : [
+                35.25745391845703,
+                5,
+                0
+            ],
+            "min" : [
+                -35.25745391845703,
+                0,
+                -40.11048889160156
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 14,
+            "componentType" : 5126,
+            "count" : 170,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 15,
+            "componentType" : 5126,
+            "count" : 170,
+            "max" : [
+                35.25745391845703,
+                5,
+                0
+            ],
+            "min" : [
+                -35.25745391845703,
+                0,
+                -40.11048889160156
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 16,
+            "componentType" : 5126,
+            "count" : 170,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 17,
+            "componentType" : 5126,
+            "count" : 170,
+            "max" : [
+                35.25745391845703,
+                5,
+                0
+            ],
+            "min" : [
+                -35.25745391845703,
+                0,
+                -40.11048889160156
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 18,
+            "componentType" : 5126,
+            "count" : 170,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 19,
+            "componentType" : 5126,
+            "count" : 170,
+            "max" : [
+                35.25745391845703,
+                5,
+                0
+            ],
+            "min" : [
+                -35.25745391845703,
+                0,
+                -40.11048889160156
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 20,
+            "componentType" : 5126,
+            "count" : 170,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 21,
+            "componentType" : 5126,
+            "count" : 170,
+            "max" : [
+                35.25745391845703,
+                5,
+                0
+            ],
+            "min" : [
+                -35.25745391845703,
+                0,
+                -40.11048889160156
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 22,
+            "componentType" : 5126,
+            "count" : 170,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 23,
+            "componentType" : 5126,
+            "count" : 170,
+            "max" : [
+                35.25745391845703,
+                5,
+                0
+            ],
+            "min" : [
+                -35.25745391845703,
+                0,
+                -40.11048889160156
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 24,
+            "componentType" : 5126,
+            "count" : 170,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 25,
+            "componentType" : 5126,
+            "count" : 170,
+            "max" : [
+                35.25745391845703,
+                5,
+                0
+            ],
+            "min" : [
+                -35.25745391845703,
+                0,
+                -40.11048889160156
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 26,
+            "componentType" : 5126,
+            "count" : 170,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 27,
+            "componentType" : 5126,
+            "count" : 170,
+            "max" : [
+                35.25745391845703,
+                5,
+                0
+            ],
+            "min" : [
+                -35.25745391845703,
+                0,
+                -40.11048889160156
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 28,
+            "componentType" : 5126,
+            "count" : 170,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 29,
+            "componentType" : 5126,
+            "count" : 170,
+            "max" : [
+                35.25745391845703,
+                5,
+                0
+            ],
+            "min" : [
+                -35.25745391845703,
+                0,
+                -40.11048889160156
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 30,
+            "componentType" : 5126,
+            "count" : 170,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 31,
+            "componentType" : 5126,
+            "count" : 170,
+            "max" : [
+                35.25745391845703,
+                5,
+                0
+            ],
+            "min" : [
+                -35.25745391845703,
+                0,
+                -40.11048889160156
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 32,
+            "componentType" : 5126,
+            "count" : 170,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 33,
+            "componentType" : 5126,
+            "count" : 170,
+            "max" : [
+                35.25745391845703,
+                5,
+                0
+            ],
+            "min" : [
+                -35.25745391845703,
+                0,
+                -40.11048889160156
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 34,
+            "componentType" : 5126,
+            "count" : 170,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 35,
+            "componentType" : 5126,
+            "count" : 170,
+            "max" : [
+                35.25745391845703,
+                5,
+                0
+            ],
+            "min" : [
+                -35.25745391845703,
+                0,
+                -40.11048889160156
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 36,
+            "componentType" : 5126,
+            "count" : 170,
+            "type" : "VEC3"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 4704,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4704,
+            "byteOffset" : 4704
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6272,
+            "byteOffset" : 9408
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3456,
+            "byteOffset" : 15680
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2040,
+            "byteOffset" : 19136
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2040,
+            "byteOffset" : 21176
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 576,
+            "byteOffset" : 23216
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2040,
+            "byteOffset" : 23792
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2040,
+            "byteOffset" : 25832
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2040,
+            "byteOffset" : 27872
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2040,
+            "byteOffset" : 29912
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2040,
+            "byteOffset" : 31952
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2040,
+            "byteOffset" : 33992
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2040,
+            "byteOffset" : 36032
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2040,
+            "byteOffset" : 38072
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2040,
+            "byteOffset" : 40112
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2040,
+            "byteOffset" : 42152
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2040,
+            "byteOffset" : 44192
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2040,
+            "byteOffset" : 46232
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2040,
+            "byteOffset" : 48272
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2040,
+            "byteOffset" : 50312
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2040,
+            "byteOffset" : 52352
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2040,
+            "byteOffset" : 54392
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2040,
+            "byteOffset" : 56432
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2040,
+            "byteOffset" : 58472
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2040,
+            "byteOffset" : 60512
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2040,
+            "byteOffset" : 62552
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2040,
+            "byteOffset" : 64592
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2040,
+            "byteOffset" : 66632
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2040,
+            "byteOffset" : 68672
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2040,
+            "byteOffset" : 70712
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2040,
+            "byteOffset" : 72752
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2040,
+            "byteOffset" : 74792
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2040,
+            "byteOffset" : 76832
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2040,
+            "byteOffset" : 78872
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2040,
+            "byteOffset" : 80912
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2040,
+            "byteOffset" : 82952
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 84992,
+            "uri" : "schwebebahn.bin"
+        }
+    ]
+}

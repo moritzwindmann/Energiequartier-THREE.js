@@ -21,34 +21,117 @@ const explore = document.getElementById("explore");
 // var explorer = false;
 
 explore.addEventListener("click", function () {
-  if (!gsap.isTweening(camera.position)) {
-    gsap.to(camera.position, {
-      duration: 2,
-      z: -2.42,
-      x: 2.24,
-      y: 0.4,
-      ease: "power4.easeInOut",
-    });
-    // explorer = true
-    // explore.innerHTML = "go back ";
-    // console.log('test')
-  }
+  //camera.position = object.position;
+  console.log("Focus Object");
+  // if (!gsap.isTweening(camera.position)) {
+  //   gsap.to(camera.position, {
+  //     duration: 2,
+  //     z: -1.42,
+  //     x: 2.24,
+  //     y: 0.4,
+  //     ease: "power4.easeInOut",
+  //   });
+  //   // explorer = true
+  //   // explore.innerHTML = "go back ";
+  //   // console.log('test')
+  // }
+});
+
+const schwebebahn = document.getElementById("schwebebahn");
+// var explorer = false;
+
+schwebebahn.addEventListener("click", function () {
+  //camera.position = object.position;
+  console.log("Focus Object");
+  gltfLoader.load("/models/schwebebahn.gltf", (gltf) => {
+    gltf.scene.scale.set(0.01, 0.01, 0.01);
+    gltf.scene.position.set(0, 0, 0);
+    gltf.scene.rotation.y = -1.59;
+    gltf.scene.receiveShadow = true;
+    gltf.scene.castShadow = true;
+    scene.add(gltf.scene);
+
+    const sceneSettings = gui.addFolder("Szene");
+
+    sceneSettings
+      .add(gltf.scene.rotation, "y")
+      .min(-Math.PI)
+      .max(Math.PI)
+      .step(0.01)
+      .name("rotation");
+    updateAllMaterials();
+
+    model = gltf.scene;
+  });
+
+  // if (!gsap.isTweening(camera.position)) {
+  //   gsap.to(camera.position, {
+  //     duration: 2,
+  //     z: -1.42,
+  //     x: 2.24,
+  //     y: 0.4,
+  //     ease: "power4.easeInOut",
+  //   });
+  //   // explorer = true
+  //   // explore.innerHTML = "go back ";
+  //   // console.log('test')
+  // }
 });
 
 const topView = document.getElementById("topview");
-// var explorer = false;
 
 topView.addEventListener("click", function () {
   if (!gsap.isTweening(camera.position)) {
     gsap.to(camera.position, {
       duration: 2,
-      z: -4.91,
+      z: -5.91,
       x: 4.52,
       y: 2.68,
       ease: "power4.easeInOut",
     });
     // explore.innerHTML = "go back ";
   }
+});
+
+const umgebung = document.getElementById("umgebung");
+// var explorer = false;
+
+umgebung.addEventListener("click", function () {
+  //camera.position = object.position;
+  console.log("Focus Object");
+  gltfLoader.load("/models/umgebung.gltf", (gltf) => {
+    gltf.scene.scale.set(0.01, 0.01, 0.01);
+    gltf.scene.position.set(0, 0, 0);
+    gltf.scene.rotation.y = -1.59;
+    gltf.scene.receiveShadow = true;
+    gltf.scene.castShadow = true;
+    scene.add(gltf.scene);
+
+    const sceneSettings = gui.addFolder("Szene");
+
+    sceneSettings
+      .add(gltf.scene.rotation, "y")
+      .min(-Math.PI)
+      .max(Math.PI)
+      .step(0.01)
+      .name("rotation");
+    updateAllMaterials();
+
+    model = gltf.scene;
+  });
+
+  // if (!gsap.isTweening(camera.position)) {
+  //   gsap.to(camera.position, {
+  //     duration: 2,
+  //     z: -1.42,
+  //     x: 2.24,
+  //     y: 0.4,
+  //     ease: "power4.easeInOut",
+  //   });
+  //   // explorer = true
+  //   // explore.innerHTML = "go back ";
+  //   // console.log('test')
+  // }
 });
 
 /**
@@ -77,8 +160,6 @@ const canvas = document.querySelector("canvas.webgl");
 
 // Scene
 const scene = new THREE.Scene();
-
-//
 
 // const grid = new THREE.GridHelper( 10 , 100  );
 // grid.position.set( 1, 0.1, 1 );
@@ -127,7 +208,7 @@ scene.add(camera);
 // child.addEventListener('mousedown', (event) => {
 
 var cameraParams = {
-  orbitControls: false,
+  orbitControls: true,
   animateCamera: false,
 };
 
@@ -327,6 +408,11 @@ const updateAllMaterials = () => {
         child.material = water;
       }
 
+      //Hide Schwebebahn and Trees
+      if (child.name.includes("Cylinder") == true) {
+        child.visible = false;
+      }
+
       child.castShadow = true;
 
       // Interaction Manager
@@ -369,14 +455,16 @@ const updateAllMaterials = () => {
             " ID: " +
             event.target.material.uuid +
             " Type: " +
-            event.target.type
+            event.target.type +
+            " color: " +
+            event.target.color
         );
 
         // material for the selected building
         const newMaterial = new THREE.MeshStandardMaterial({ color: 0xff0000 });
 
         // check if object is a building
-        if (event.target.name.includes("Cube") == true) {
+        if (event.target.parent.name.includes("building") == true) {
           // deselect previous building
           if (typeof prevClickName !== "undefined") {
             console.log("Previous: " + prevClickName);
@@ -398,6 +486,15 @@ const updateAllMaterials = () => {
 
           // Change materials of the selected building
           model.getObjectByName(clickName).material = newMaterial;
+          // console.log(
+          //   "Position" +
+          //     model.getObjectByName(clickName).getWorldPosition(child.position)
+          // );
+          // console.log(
+          //   "Position" +
+          //     getWorldPosition(model.getObjectByName(clickName).position)
+          // );
+          model.getObjectByName(clickName).visible = false;
           model.getObjectByName(clickName + "_1").material = newMaterial;
         }
 
@@ -417,7 +514,7 @@ const updateAllMaterials = () => {
 
 var model, gltf;
 
-gltfLoader.load("/models/03_Energiequartier.gltf", (gltf) => {
+gltfLoader.load("/models/04_Energiequartier.gltf", (gltf) => {
   gltf.scene.scale.set(0.01, 0.01, 0.01);
   gltf.scene.position.set(0, 0, 0);
   gltf.scene.rotation.y = -1.59;
@@ -437,6 +534,8 @@ gltfLoader.load("/models/03_Energiequartier.gltf", (gltf) => {
 
   model = gltf.scene;
 });
+
+var model, gltf;
 
 /**
  * Light

@@ -1,0 +1,214 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.6.16",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "extras" : {
+                "blosm" : {
+                    "defaultLevels" : [
+                        {
+                            "levels" : 4,
+                            "weight" : 10
+                        },
+                        {
+                            "levels" : 5,
+                            "weight" : 40
+                        },
+                        {
+                            "levels" : 6,
+                            "weight" : 10
+                        }
+                    ],
+                    "minLon" : 7.119100093841553,
+                    "minLat" : 51.24235916137695,
+                    "maxLon" : 7.141369819641113,
+                    "maxLat" : 51.253700256347656,
+                    "dataType" : 2,
+                    "terrainObject" : "Terrain",
+                    "railways" : 1,
+                    "terrainReductionRatio" : 0,
+                    "mode" : 1,
+                    "singleObject" : 1,
+                    "overlayType" : 1,
+                    "ignoreGeoreferencing" : 0,
+                    "buildings" : 1,
+                    "setOverlayMaterial" : 1
+                },
+                "lat" : 51.248029708862305,
+                "lon" : 7.130234956741333,
+                "glTF2ExportSettings" : {
+                    "export_animations" : 0,
+                    "export_apply" : 1,
+                    "export_draco_mesh_compression_enable" : 0,
+                    "export_extras" : 1,
+                    "export_format" : "GLTF_SEPARATE",
+                    "export_morph" : 0,
+                    "export_skins" : 0,
+                    "export_tangents" : 1,
+                    "export_texcoords" : 0,
+                    "export_texture_dir" : "",
+                    "use_mesh_edges" : 0,
+                    "use_mesh_vertices" : 0,
+                    "use_selection" : 0,
+                    "use_visible" : 1
+                }
+            },
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "OSM Buildings edited"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "wall",
+            "pbrMetallicRoughness" : {
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.20000000298023224
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "roof",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.5173337459564209,
+                    0.0585484504699707,
+                    0.06715559959411621,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 1
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "map_3.osm_buildings.003",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 3,
+                        "NORMAL" : 4
+                    },
+                    "indices" : 5,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 36050,
+            "max" : [
+                825.4923095703125,
+                162.70823669433594,
+                642.6665649414062
+            ],
+            "min" : [
+                -794.6612548828125,
+                1.3501739501953125,
+                -673.2095336914062
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 36050,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 54090,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 9009,
+            "max" : [
+                825.4923095703125,
+                162.70823669433594,
+                642.6665649414062
+            ],
+            "min" : [
+                -794.6612548828125,
+                6.576292514801025,
+                -673.2095336914062
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 9009,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5123,
+            "count" : 17793,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 432600,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 432600,
+            "byteOffset" : 432600
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 108180,
+            "byteOffset" : 865200
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 108108,
+            "byteOffset" : 973380
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 108108,
+            "byteOffset" : 1081488
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 35586,
+            "byteOffset" : 1189596
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1225184,
+            "uri" : "umgebung.bin"
+        }
+    ]
+}
